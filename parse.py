@@ -8,9 +8,6 @@ class UnitBonus:
     Def = 0
     Mag = 0
     Spr = 0
-    KillerType = 0
-    GearType = 0
-
 
 itemTypeString = {
     1: 'dagger',
@@ -87,7 +84,7 @@ def parseData():
             unitOutput['stats'] = getStats(unit)
             unitOutput['sex'] = unit['sex']
             unitOutput['equip'] = getEquips(unit['equip'])
-            unitOutput['skills'] = getSkills(unit['skills'])
+            unitOutput['skills'] = getPassives(unit['skills'])
             jsonOutput[unitName] = unitOutput
                     
     try:
@@ -137,18 +134,7 @@ def getStats(unit):
     unitStats['maxStats'] = maxStats
     unitStats['pots'] = maxPots
 
-    return unitStats
-    
-def getSkills(unitSkills):
-    skillIDs = []
-    unitBonus = UnitBonus()
-    unitKillers = UnitBonus()
-    typesString = []
-    returnSkills = []
-
-    passives = getPassives(unitSkills)    
-    return passives
-    
+    return unitStats    
 
 def getPassives(skills):
     unitBonus = UnitBonus()
