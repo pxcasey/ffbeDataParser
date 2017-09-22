@@ -5647,6 +5647,16 @@
             "equipedConditions": [
               "spear"
             ]
+          }, 
+          {
+            "hp%": 20, 
+            "atk%": 20, 
+            "equipedConditions": "light"
+          }, 
+          {
+            "mp%": 20, 
+            "mag%": 20, 
+            "equipedConditions": "fire"
           }
         ]
       ]

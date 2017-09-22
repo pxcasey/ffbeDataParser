@@ -150,15 +150,6 @@ def getSkills(unitSkills):
     if (len(passives)):
         returnSkills.append(passives)
     
-    for item in unitSkills:
-        skillIDs.append(item['id'])
-        skillData = skillsData[str(item['id'])]
-        skillEffects = skillData['effects_raw']
-
-        #passives = getPassives(skillEffects)
-        #if (len(passives)):
-            #returnSkills.append(passives)
-
     return returnSkills
     
 
@@ -170,6 +161,8 @@ def getPassives(skills):
 
     for item in skills:
         skillId = str(item['id'])
+        if skillId == '910274':
+            pass
         skillData = skillsData[skillId]
         for effect in skillData['effects_raw']:
             if (effect[1] is 3 and effect[2] is 1) and (effect[0] is 0 or 1):                
@@ -229,6 +222,27 @@ def getPassives(skills):
                 masteryBonus['equipedConditions'].append(itemTypeString[masteryType])
 
                 masteries.append(masteryBonus)
+
+            #element based masteries
+            if effect[0] == 1 and effect[1] == 3 and effect[2] == 10004:
+                elementBonus = OrderedDict()
+                elementEffect = effect[3]
+                elementType = elementEffect[0]
+                if elementEffect[1]:
+                    elementBonus['hp%'] = elementEffect[1]
+                if elementEffect[2]:
+                    elementBonus['mp%'] = elementEffect[2]
+                if elementEffect[3]:
+                    elementBonus['atk%'] = elementEffect[3]
+                if elementEffect[4]:
+                    elementBonus['mag%'] = elementEffect[4]
+                if elementEffect[5]:
+                    elementBonus['def%'] = elementEffect[5]
+                if elementEffect[6]:
+                    elementBonus['spr%'] = elementEffect[6]
+                elementBonus['equipedConditions'] = elementString[elementType]
+                masteries.append(elementBonus)
+
             
     passiveStat = OrderedDict()
     if unitBonus.Hp:
