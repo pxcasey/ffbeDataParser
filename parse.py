@@ -146,11 +146,8 @@ def getSkills(unitSkills):
     typesString = []
     returnSkills = []
 
-    passives = getPassives(unitSkills)
-    if (len(passives)):
-        returnSkills.append(passives)
-    
-    return returnSkills
+    passives = getPassives(unitSkills)    
+    return passives
     
 
 def getPassives(skills):
@@ -269,7 +266,7 @@ def getPassives(skills):
     if passiveStat:
         returnSkills.append(passiveStat)
     if masteries:
-        returnSkills.append(masteries)
+        returnSkills.extend(masteries)
     return returnSkills
 
 def getMastery(skills):

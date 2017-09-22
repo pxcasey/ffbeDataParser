@@ -29,13 +29,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 10, 
-          "mag%": 30, 
-          "spr%": 20
-        }
-      ]
+      {
+        "mp%": 10, 
+        "mag%": 30, 
+        "spr%": 20
+      }
     ]
   }, 
   "Liza": {
@@ -66,11 +64,9 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 10
-        }
-      ]
+      {
+        "mp%": 10
+      }
     ]
   }, 
   "Helena": {
@@ -112,21 +108,19 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 10, 
-          "atk%": 20, 
-          "def%": 10, 
-          "spr%": 10, 
-          "dualWield": [
-            "dagger", 
-            "whip", 
-            "throwing", 
-            "gun"
-          ]
-        }
-      ]
+      {
+        "hp%": 10, 
+        "mp%": 10, 
+        "atk%": 20, 
+        "def%": 10, 
+        "spr%": 10, 
+        "dualWield": [
+          "dagger", 
+          "whip", 
+          "throwing", 
+          "gun"
+        ]
+      }
     ]
   }, 
   "Vivi": {
@@ -202,23 +196,19 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 10, 
-          "atk%": 20, 
-          "def%": 10, 
-          "spr%": 20
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "greatSword"
-            ]
-          }
+      {
+        "hp%": 10, 
+        "mp%": 10, 
+        "atk%": 20, 
+        "def%": 10, 
+        "spr%": 20
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "greatSword"
         ]
-      ]
+      }
     ]
   }, 
   "Sakura": {
@@ -254,14 +244,12 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 20, 
-          "atk%": 20, 
-          "mag%": 20
-        }
-      ]
+      {
+        "hp%": 10, 
+        "mp%": 20, 
+        "atk%": 20, 
+        "mag%": 20
+      }
     ]
   }, 
   "Guy": {
@@ -299,13 +287,11 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 10, 
-          "def%": 20
-        }
-      ]
+      {
+        "hp%": 10, 
+        "atk%": 10, 
+        "def%": 20
+      }
     ]
   }, 
   "Paul": {
@@ -368,12 +354,10 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 50
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 50
+      }
     ]
   }, 
   "Exdeath": {
@@ -410,34 +394,32 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 30, 
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 0
-            }, 
-            {
-              "name": "bird", 
-              "percent": 0
-            }, 
-            {
-              "name": "beast", 
-              "percent": 0
-            }, 
-            {
-              "name": "plant", 
-              "percent": 0
-            }, 
-            {
-              "name": "bug", 
-              "percent": 0
-            }
-          ]
-        }
-      ]
+      {
+        "mp%": 20, 
+        "mag%": 30, 
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 0
+          }, 
+          {
+            "name": "bird", 
+            "percent": 0
+          }, 
+          {
+            "name": "beast", 
+            "percent": 0
+          }, 
+          {
+            "name": "plant", 
+            "percent": 0
+          }, 
+          {
+            "name": "bug", 
+            "percent": 0
+          }
+        ]
+      }
     ]
   }, 
   "Locke": {
@@ -509,22 +491,18 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30, 
-          "mag%": 30, 
-          "spr%": 20
-        }, 
-        [
-          {
-            "mag%": 50, 
-            "spr%": 50, 
-            "equipedConditions": [
-              "bow"
-            ]
-          }
+      {
+        "mp%": 30, 
+        "mag%": 30, 
+        "spr%": 20
+      }, 
+      {
+        "mag%": 50, 
+        "spr%": 50, 
+        "equipedConditions": [
+          "bow"
         ]
-      ]
+      }
     ]
   }, 
   "Ingus": {
@@ -561,13 +539,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 20, 
-          "mag%": 20
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 20, 
+        "mag%": 20
+      }
     ]
   }, 
   "Vanille": {
@@ -602,11 +578,9 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20
-        }
-      ]
+      {
+        "mp%": 20
+      }
     ]
   }, 
   "はぐれメタル": {
@@ -678,33 +652,29 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 20, 
-          "def%": 20
-        }, 
-        [
-          {
-            "atk%": 40, 
-            "equipedConditions": [
-              "katana"
-            ]
-          }, 
-          {
-            "atk%": 30, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }, 
-          {
-            "atk%": 20, 
-            "equipedConditions": [
-              "greatSword"
-            ]
-          }
+      {
+        "hp%": 30, 
+        "atk%": 20, 
+        "def%": 20
+      }, 
+      {
+        "atk%": 40, 
+        "equipedConditions": [
+          "katana"
         ]
-      ]
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "sword"
+        ]
+      }, 
+      {
+        "atk%": 20, 
+        "equipedConditions": [
+          "greatSword"
+        ]
+      }
     ]
   }, 
   "Shera": {
@@ -737,27 +707,23 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10, 
-          "def%": 10, 
-          "spr%": 10, 
-          "killers": [
-            {
-              "name": "demon", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "atk%": 10, 
+        "def%": 10, 
+        "spr%": 10, 
+        "killers": [
           {
-            "atk%": 30, 
-            "equipedConditions": [
-              "sword"
-            ]
+            "name": "demon", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "sword"
+        ]
+      }
     ]
   }, 
   "Abel": {
@@ -793,17 +759,15 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 20, 
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "atk%": 20, 
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Chic Ariana": {
@@ -837,20 +801,16 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "spr%": 20
-        }, 
-        [
-          {
-            "mag%": 30, 
-            "equipedConditions": [
-              "hammer"
-            ]
-          }
+      {
+        "hp%": 10, 
+        "spr%": 20
+      }, 
+      {
+        "mag%": 30, 
+        "equipedConditions": [
+          "hammer"
         ]
-      ]
+      }
     ]
   }, 
   "Lasswell": {
@@ -885,22 +845,18 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 30
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "def%": 10, 
-            "mag%": 20, 
-            "spr%": 10, 
-            "equipedConditions": [
-              "katana"
-            ]
-          }
+      {
+        "atk%": 30
+      }, 
+      {
+        "atk%": 20, 
+        "def%": 10, 
+        "mag%": 20, 
+        "spr%": 10, 
+        "equipedConditions": [
+          "katana"
         ]
-      ]
+      }
     ]
   }, 
   "Ling": {
@@ -931,17 +887,15 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 75
-            }
-          ]
-        }
-      ]
+      {
+        "mp%": 20, 
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 75
+          }
+        ]
+      }
     ]
   }, 
   "Agrias": {
@@ -982,22 +936,18 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 20, 
-          "def%": 10
-        }, 
-        [
-          {
-            "def%": 30, 
-            "spr%": 30, 
-            "equipedConditions": [
-              "lightShield"
-            ]
-          }
+      {
+        "hp%": 30, 
+        "atk%": 20, 
+        "def%": 10
+      }, 
+      {
+        "def%": 30, 
+        "spr%": 30, 
+        "equipedConditions": [
+          "lightShield"
         ]
-      ]
+      }
     ]
   }, 
   "Veritas of the Earth": {
@@ -1033,13 +983,11 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "def%": 30, 
-          "spr%": 20
-        }
-      ]
+      {
+        "hp%": 30, 
+        "def%": 30, 
+        "spr%": 20
+      }
     ]
   }, 
   "Roselia": {
@@ -1073,11 +1021,9 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "spr%": 20
-        }
-      ]
+      {
+        "spr%": 20
+      }
     ]
   }, 
   "Ashe": {
@@ -1117,22 +1063,18 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 20, 
-          "mag%": 30
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "mag%": 50, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "hp%": 10, 
+        "mp%": 20, 
+        "mag%": 30
+      }, 
+      {
+        "atk%": 50, 
+        "mag%": 50, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }
     ]
   }, 
   "Rem": {
@@ -1166,23 +1108,19 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30, 
-          "mag%": 20, 
-          "spr%": 30, 
-          "dualWield": "dagger"
-        }, 
-        [
-          {
-            "mag%": 50, 
-            "spr%": 50, 
-            "equipedConditions": [
-              "dagger"
-            ]
-          }
+      {
+        "mp%": 30, 
+        "mag%": 20, 
+        "spr%": 30, 
+        "dualWield": "dagger"
+      }, 
+      {
+        "mag%": 50, 
+        "spr%": 50, 
+        "equipedConditions": [
+          "dagger"
         ]
-      ]
+      }
     ]
   }, 
   "Anastasis": {
@@ -1214,11 +1152,9 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "spr%": 10
-        }
-      ]
+      {
+        "spr%": 10
+      }
     ]
   }, 
   "Artemios": {
@@ -1250,24 +1186,22 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 50
-            }, 
-            {
-              "name": "human", 
-              "percent": 50
-            }, 
-            {
-              "name": "demon", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "killers": [
+          {
+            "name": "beast", 
+            "percent": 50
+          }, 
+          {
+            "name": "human", 
+            "percent": 50
+          }, 
+          {
+            "name": "demon", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Russell": {
@@ -1307,16 +1241,14 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Artisan Lid": {
@@ -1353,12 +1285,10 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "spr%": 20
-        }
-      ]
+      {
+        "mp%": 20, 
+        "spr%": 20
+      }
     ]
   }, 
   "Jack": {
@@ -1391,20 +1321,16 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 20
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "equipedConditions": [
-              "katana"
-            ]
-          }
+      {
+        "hp%": 10, 
+        "atk%": 20
+      }, 
+      {
+        "atk%": 20, 
+        "equipedConditions": [
+          "katana"
         ]
-      ]
+      }
     ]
   }, 
   "Kamui": {
@@ -1437,13 +1363,11 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10, 
-          "def%": 10, 
-          "spr%": 10
-        }
-      ]
+      {
+        "atk%": 10, 
+        "def%": 10, 
+        "spr%": 10
+      }
     ]
   }, 
   "Sice": {
@@ -1475,13 +1399,11 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 10, 
-          "mag%": 10
-        }
-      ]
+      {
+        "hp%": 10, 
+        "atk%": 10, 
+        "mag%": 10
+      }
     ]
   }, 
   "Onion Knight": {
@@ -1528,28 +1450,24 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "mp%": 30, 
-          "atk%": 30, 
-          "dualWield": "all", 
-          "killers": [
-            {
-              "name": "undead", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 30, 
+        "mp%": 30, 
+        "atk%": 30, 
+        "dualWield": "all", 
+        "killers": [
           {
-            "atk%": 50, 
-            "equipedConditions": [
-              "sword"
-            ]
+            "name": "undead", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "sword"
+        ]
+      }
     ]
   }, 
   "Silvia": {
@@ -1589,22 +1507,18 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "atk%": 20, 
-          "mag%": 20
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "mag%": 20, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "mp%": 20, 
+        "atk%": 20, 
+        "mag%": 20
+      }, 
+      {
+        "atk%": 20, 
+        "mag%": 20, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }
     ]
   }, 
   "Seria": {
@@ -1638,22 +1552,20 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10, 
-          "def%": 10, 
-          "killers": [
-            {
-              "name": "demon", 
-              "percent": 50
-            }, 
-            {
-              "name": "bird", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "atk%": 10, 
+        "def%": 10, 
+        "killers": [
+          {
+            "name": "demon", 
+            "percent": 50
+          }, 
+          {
+            "name": "bird", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Rizer": {
@@ -1692,11 +1604,9 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10
-        }
-      ]
+      {
+        "atk%": 10
+      }
     ]
   }, 
   "A2": {
@@ -1736,46 +1646,42 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "dualWield": "all", 
-          "killers": [
-            {
-              "name": "machine", 
-              "percent": 100
-            }
-          ]
-        }, 
-        [
+      {
+        "dualWield": "all", 
+        "killers": [
           {
-            "atk%": 30, 
-            "def%": 20, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }, 
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "greatSword"
-            ]
-          }, 
-          {
-            "atk%": 30, 
-            "spr%": 20, 
-            "equipedConditions": [
-              "spear"
-            ]
-          }, 
-          {
-            "hp%": 30, 
-            "atk%": 30, 
-            "equipedConditions": [
-              "fist"
-            ]
+            "name": "machine", 
+            "percent": 100
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 30, 
+        "def%": 20, 
+        "equipedConditions": [
+          "sword"
+        ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "greatSword"
+        ]
+      }, 
+      {
+        "atk%": 30, 
+        "spr%": 20, 
+        "equipedConditions": [
+          "spear"
+        ]
+      }, 
+      {
+        "hp%": 30, 
+        "atk%": 30, 
+        "equipedConditions": [
+          "fist"
+        ]
+      }
     ]
   }, 
   "Fang": {
@@ -1813,27 +1719,23 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 35, 
-          "def%": 15, 
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 10, 
+        "atk%": 35, 
+        "def%": 15, 
+        "killers": [
           {
-            "atk%": 20, 
-            "equipedConditions": [
-              "spear"
-            ]
+            "name": "beast", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 20, 
+        "equipedConditions": [
+          "spear"
+        ]
+      }
     ]
   }, 
   "Trance Terra": {
@@ -1869,13 +1771,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30, 
-          "mag%": 60, 
-          "spr%": 50
-        }
-      ]
+      {
+        "mp%": 30, 
+        "mag%": 60, 
+        "spr%": 50
+      }
     ]
   }, 
   "Wakka": {
@@ -1909,18 +1809,16 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 10, 
-          "killers": [
-            {
-              "name": "bird", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 10, 
+        "killers": [
+          {
+            "name": "bird", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Summer Lid": {
@@ -1957,18 +1855,16 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10, 
-          "spr%": 10, 
-          "killers": [
-            {
-              "name": "machine", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "atk%": 10, 
+        "spr%": 10, 
+        "killers": [
+          {
+            "name": "machine", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Cinque": {
@@ -1999,19 +1895,17 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 20, 
-          "def%": 10, 
-          "killers": [
-            {
-              "name": "stone", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 10, 
+        "atk%": 20, 
+        "def%": 10, 
+        "killers": [
+          {
+            "name": "stone", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Kuja": {
@@ -2045,12 +1939,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 20
-        }
-      ]
+      {
+        "mp%": 20, 
+        "mag%": 20
+      }
     ]
   }, 
   "Ayaka": {
@@ -2083,21 +1975,17 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "mp%": 30, 
-          "spr%": 30
-        }, 
-        [
-          {
-            "spr%": 50, 
-            "equipedConditions": [
-              "staff"
-            ]
-          }
+      {
+        "hp%": 20, 
+        "mp%": 30, 
+        "spr%": 30
+      }, 
+      {
+        "spr%": 50, 
+        "equipedConditions": [
+          "staff"
         ]
-      ]
+      }
     ]
   }, 
   "Mizell": {
@@ -2161,11 +2049,9 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 20
-        }
-      ]
+      {
+        "atk%": 20
+      }
     ]
   }, 
   "Sozhe": {
@@ -2208,32 +2094,28 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 20, 
-          "def%": 20, 
-          "killers": [
-            {
-              "name": "demon", 
-              "percent": 50
-            }, 
-            {
-              "name": "dragon", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 30, 
+        "atk%": 20, 
+        "def%": 20, 
+        "killers": [
           {
-            "atk%": 30, 
-            "def%": 30, 
-            "equipedConditions": [
-              "heavyArmor"
-            ]
+            "name": "demon", 
+            "percent": 50
+          }, 
+          {
+            "name": "dragon", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 30, 
+        "def%": 30, 
+        "equipedConditions": [
+          "heavyArmor"
+        ]
+      }
     ]
   }, 
   "Camille": {
@@ -2269,20 +2151,16 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 20
-        }, 
-        [
-          {
-            "atk%": 30, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "hp%": 10, 
+        "atk%": 20
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }
     ]
   }, 
   "Gau": {
@@ -2313,12 +2191,10 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 20
-        }
-      ]
+      {
+        "hp%": 10, 
+        "atk%": 20
+      }
     ]
   }, 
   "Julian": {
@@ -2363,21 +2239,17 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 30, 
-          "def%": 10
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "hp%": 30, 
+        "atk%": 30, 
+        "def%": 10
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }
     ]
   }, 
   "Veritas of the Waters": {
@@ -2409,27 +2281,23 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 20, 
-          "spr%": 20
-        }, 
-        [
-          {
-            "mag%": 25, 
-            "equipedConditions": [
-              "rod"
-            ]
-          }, 
-          {
-            "spr%": 25, 
-            "equipedConditions": [
-              "staff"
-            ]
-          }
+      {
+        "mp%": 20, 
+        "mag%": 20, 
+        "spr%": 20
+      }, 
+      {
+        "mag%": 25, 
+        "equipedConditions": [
+          "rod"
         ]
-      ]
+      }, 
+      {
+        "spr%": 25, 
+        "equipedConditions": [
+          "staff"
+        ]
+      }
     ]
   }, 
   "21O": {
@@ -2464,14 +2332,12 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 10, 
-          "def%": 20, 
-          "spr%": 20
-        }
-      ]
+      {
+        "hp%": 10, 
+        "mp%": 10, 
+        "def%": 20, 
+        "spr%": 20
+      }
     ]
   }, 
   "Rain": {
@@ -2510,12 +2376,10 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "def%": 20
-        }
-      ]
+      {
+        "hp%": 10, 
+        "def%": 20
+      }
     ]
   }, 
   "Ludmille": {
@@ -2557,13 +2421,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 10, 
-          "mag%": 20
-        }
-      ]
+      {
+        "hp%": 10, 
+        "mp%": 10, 
+        "mag%": 20
+      }
     ]
   }, 
   "Xon": {
@@ -2596,12 +2458,10 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 10
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 10
+      }
     ]
   }, 
   "Lani": {
@@ -2672,13 +2532,11 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "def%": 20, 
-          "spr%": 20
-        }
-      ]
+      {
+        "hp%": 20, 
+        "def%": 20, 
+        "spr%": 20
+      }
     ]
   }, 
   "Eldin": {
@@ -2749,26 +2607,22 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 20, 
-          "killers": [
-            {
-              "name": "dragon", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 10, 
+        "atk%": 20, 
+        "killers": [
           {
-            "atk%": 20, 
-            "equipedConditions": [
-              "spear"
-            ]
+            "name": "dragon", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 20, 
+        "equipedConditions": [
+          "spear"
+        ]
+      }
     ]
   }, 
   "Veritas of the Dark": {
@@ -2805,24 +2659,20 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "mp%": 20, 
-          "atk%": 20, 
-          "def%": 20, 
-          "mag%": 20, 
-          "spr%": 20
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "greatSword"
-            ]
-          }
+      {
+        "hp%": 20, 
+        "mp%": 20, 
+        "atk%": 20, 
+        "def%": 20, 
+        "mag%": 20, 
+        "spr%": 20
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "greatSword"
         ]
-      ]
+      }
     ]
   }, 
   "Ollie": {
@@ -2862,11 +2712,9 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "def%": 30
-        }
-      ]
+      {
+        "def%": 30
+      }
     ]
   }, 
   "Dangerous Ariana": {
@@ -2900,13 +2748,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 10, 
-          "def%": 10, 
-          "mag%": 10
-        }
-      ]
+      {
+        "mp%": 10, 
+        "def%": 10, 
+        "mag%": 10
+      }
     ]
   }, 
   "Bedile": {
@@ -2970,11 +2816,9 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10
-        }
-      ]
+      {
+        "atk%": 10
+      }
     ]
   }, 
   "Rasler": {
@@ -3009,27 +2853,23 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "def%": 20, 
-          "spr%": 20
-        }, 
-        [
-          {
-            "def%": 50, 
-            "equipedConditions": [
-              "heavyArmor"
-            ]
-          }, 
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "hp%": 20, 
+        "def%": 20, 
+        "spr%": 20
+      }, 
+      {
+        "def%": 50, 
+        "equipedConditions": [
+          "heavyArmor"
         ]
-      ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "sword"
+        ]
+      }
     ]
   }, 
   "Lawrence": {
@@ -3063,13 +2903,11 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 20, 
-          "def%": 10
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 20, 
+        "def%": 10
+      }
     ]
   }, 
   "Sarah": {
@@ -3102,11 +2940,9 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 10
-        }
-      ]
+      {
+        "mp%": 10
+      }
     ]
   }, 
   "Y'shtola": {
@@ -3175,20 +3011,16 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "def%": 10
-        }, 
-        [
-          {
-            "def%": 20, 
-            "spr%": 20, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "def%": 10
+      }, 
+      {
+        "def%": 20, 
+        "spr%": 20, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }
     ]
   }, 
   "Magitek Armor Terra": {
@@ -3262,12 +3094,10 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 20, 
-          "mag%": 20
-        }
-      ]
+      {
+        "atk%": 20, 
+        "mag%": 20
+      }
     ]
   }, 
   "Queen": {
@@ -3299,15 +3129,13 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 50, 
-          "def%": 20, 
-          "mag%": 20, 
-          "spr%": 20
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 50, 
+        "def%": 20, 
+        "mag%": 20, 
+        "spr%": 20
+      }
     ]
   }, 
   "Eve": {
@@ -3340,19 +3168,17 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 40, 
-          "def%": 10, 
-          "killers": [
-            {
-              "name": "machine", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 30, 
+        "atk%": 40, 
+        "def%": 10, 
+        "killers": [
+          {
+            "name": "machine", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Marie": {
@@ -3385,12 +3211,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30, 
-          "spr%": 30
-        }
-      ]
+      {
+        "mp%": 30, 
+        "spr%": 30
+      }
     ]
   }, 
   "Penelo": {
@@ -3425,22 +3249,18 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "atk%": 10, 
-          "mag%": 30
-        }, 
-        [
-          {
-            "atk%": 30, 
-            "mag%": 30, 
-            "equipedConditions": [
-              "dagger"
-            ]
-          }
+      {
+        "mp%": 20, 
+        "atk%": 10, 
+        "mag%": 30
+      }, 
+      {
+        "atk%": 30, 
+        "mag%": 30, 
+        "equipedConditions": [
+          "dagger"
         ]
-      ]
+      }
     ]
   }, 
   "Vargas": {
@@ -3476,21 +3296,17 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "mp%": 20, 
-          "atk%": 20
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "greatSword"
-            ]
-          }
+      {
+        "hp%": 20, 
+        "mp%": 20, 
+        "atk%": 20
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "greatSword"
         ]
-      ]
+      }
     ]
   }, 
   "Zyrus": {
@@ -3523,32 +3339,28 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 10, 
-          "killers": [
-            {
-              "name": "dragon", 
-              "percent": 25
-            }
-          ]
-        }, 
-        [
+      {
+        "mp%": 20, 
+        "mag%": 10, 
+        "killers": [
           {
-            "mag%": 20, 
-            "equipedConditions": [
-              "rod"
-            ]
-          }, 
-          {
-            "mag%": 30, 
-            "equipedConditions": [
-              "robe"
-            ]
+            "name": "dragon", 
+            "percent": 25
           }
         ]
-      ]
+      }, 
+      {
+        "mag%": 20, 
+        "equipedConditions": [
+          "rod"
+        ]
+      }, 
+      {
+        "mag%": 30, 
+        "equipedConditions": [
+          "robe"
+        ]
+      }
     ]
   }, 
   "Ulrica": {
@@ -3582,13 +3394,11 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 10, 
-          "def%": 10
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 10, 
+        "def%": 10
+      }
     ]
   }, 
   "Rikku": {
@@ -3622,13 +3432,11 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "mp%": 10, 
-          "atk%": 20
-        }
-      ]
+      {
+        "hp%": 20, 
+        "mp%": 10, 
+        "atk%": 20
+      }
     ]
   }, 
   "Jake": {
@@ -3663,11 +3471,9 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10
-        }
-      ]
+      {
+        "atk%": 10
+      }
     ]
   }, 
   "Garnet": {
@@ -3701,12 +3507,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 10, 
-          "spr%": 30
-        }
-      ]
+      {
+        "mp%": 10, 
+        "spr%": 30
+      }
     ]
   }, 
   "Samatha": {
@@ -3738,12 +3542,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10, 
-          "mag%": 10
-        }
-      ]
+      {
+        "atk%": 10, 
+        "mag%": 10
+      }
     ]
   }, 
   "Veritas of the Light": {
@@ -3777,50 +3579,46 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "mp%": 20, 
-          "mag%": 30, 
-          "spr%": 10, 
-          "dualWield": [
-            "throwing", 
-            "gun"
-          ], 
-          "killers": [
-            {
-              "name": "demon", 
-              "percent": 50
-            }, 
-            {
-              "name": "machine", 
-              "percent": 50
-            }, 
-            {
-              "name": "spirit", 
-              "percent": 50
-            }, 
-            {
-              "name": "undead", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 20, 
+        "mp%": 20, 
+        "mag%": 30, 
+        "spr%": 10, 
+        "dualWield": [
+          "throwing", 
+          "gun"
+        ], 
+        "killers": [
           {
-            "mag%": 50, 
-            "equipedConditions": [
-              "throwing"
-            ]
+            "name": "demon", 
+            "percent": 50
           }, 
           {
-            "atk%": 50, 
-            "equipedConditions": [
-              "gun"
-            ]
+            "name": "machine", 
+            "percent": 50
+          }, 
+          {
+            "name": "spirit", 
+            "percent": 50
+          }, 
+          {
+            "name": "undead", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "mag%": 50, 
+        "equipedConditions": [
+          "throwing"
+        ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "gun"
+        ]
+      }
     ]
   }, 
   "Maria": {
@@ -3853,12 +3651,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "spr%": 10
-        }
-      ]
+      {
+        "mp%": 20, 
+        "spr%": 10
+      }
     ]
   }, 
   "Wedge": {
@@ -3935,18 +3731,16 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "def%": 30, 
-          "killers": [
-            {
-              "name": "undead", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 20, 
+        "def%": 30, 
+        "killers": [
+          {
+            "name": "undead", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "やまたのおろち": {
@@ -3980,13 +3774,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 30, 
-          "mag%": 30
-        }
-      ]
+      {
+        "hp%": 30, 
+        "atk%": 30, 
+        "mag%": 30
+      }
     ]
   }, 
   "Rakshasa": {
@@ -4056,13 +3848,11 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 50, 
-          "def%": 20
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 50, 
+        "def%": 20
+      }
     ]
   }, 
   "カンダタ": {
@@ -4131,12 +3921,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 30
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 30
+      }
     ]
   }, 
   "Hunter Rain": {
@@ -4168,48 +3956,44 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "def%": 30, 
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 25
-            }, 
-            {
-              "name": "bird", 
-              "percent": 25
-            }, 
-            {
-              "name": "aquatic", 
-              "percent": 25
-            }, 
-            {
-              "name": "dragon", 
-              "percent": 25
-            }, 
-            {
-              "name": "bug", 
-              "percent": 25
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 30, 
+        "def%": 30, 
+        "killers": [
           {
-            "def%": 60, 
-            "equipedConditions": [
-              "heavyArmor"
-            ]
+            "name": "beast", 
+            "percent": 25
           }, 
           {
-            "atk%": 50, 
-            "equipedConditions": [
-              "greatSword"
-            ]
+            "name": "bird", 
+            "percent": 25
+          }, 
+          {
+            "name": "aquatic", 
+            "percent": 25
+          }, 
+          {
+            "name": "dragon", 
+            "percent": 25
+          }, 
+          {
+            "name": "bug", 
+            "percent": 25
           }
         ]
-      ]
+      }, 
+      {
+        "def%": 60, 
+        "equipedConditions": [
+          "heavyArmor"
+        ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "greatSword"
+        ]
+      }
     ]
   }, 
   "Snow": {
@@ -4243,12 +4027,10 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "def%": 20
-        }
-      ]
+      {
+        "hp%": 30, 
+        "def%": 20
+      }
     ]
   }, 
   "Shine": {
@@ -4282,15 +4064,13 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 10, 
-          "atk%": 20, 
-          "def%": 20, 
-          "spr%": 20
-        }
-      ]
+      {
+        "hp%": 10, 
+        "mp%": 10, 
+        "atk%": 20, 
+        "def%": 20, 
+        "spr%": 20
+      }
     ]
   }, 
   "Goken": {
@@ -4322,28 +4102,24 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "mp%": 20
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "def%": 20, 
-            "equipedConditions": [
-              "clothes"
-            ]
-          }, 
-          {
-            "atk%": 20, 
-            "def%": 20, 
-            "equipedConditions": [
-              "hat"
-            ]
-          }
+      {
+        "hp%": 20, 
+        "mp%": 20
+      }, 
+      {
+        "atk%": 20, 
+        "def%": 20, 
+        "equipedConditions": [
+          "clothes"
         ]
-      ]
+      }, 
+      {
+        "atk%": 20, 
+        "def%": 20, 
+        "equipedConditions": [
+          "hat"
+        ]
+      }
     ]
   }, 
   "Mel": {
@@ -4378,16 +4154,14 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "killers": [
-            {
-              "name": "plant", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "killers": [
+          {
+            "name": "plant", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Delita": {
@@ -4429,12 +4203,10 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 20
-        }
-      ]
+      {
+        "hp%": 30, 
+        "atk%": 20
+      }
     ]
   }, 
   "Cecil": {
@@ -4473,19 +4245,17 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 20, 
-          "def%": 50, 
-          "killers": [
-            {
-              "name": "demon", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 20, 
+        "def%": 50, 
+        "killers": [
+          {
+            "name": "demon", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Ovelia": {
@@ -4516,12 +4286,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30, 
-          "spr%": 10
-        }
-      ]
+      {
+        "mp%": 30, 
+        "spr%": 10
+      }
     ]
   }, 
   "Tronn": {
@@ -4628,43 +4396,39 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "mp%": 20, 
-          "atk%": 20, 
-          "def%": 20, 
-          "mag%": 20, 
-          "spr%": 20
-        }, 
-        [
-          {
-            "mag%": 50, 
-            "equipedConditions": [
-              "robe"
-            ]
-          }, 
-          {
-            "def%": 50, 
-            "equipedConditions": [
-              "helm"
-            ]
-          }, 
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "hat"
-            ]
-          }, 
-          {
-            "def%": 15, 
-            "spr%": 15, 
-            "equipedConditions": [
-              "lightShield"
-            ]
-          }
+      {
+        "hp%": 20, 
+        "mp%": 20, 
+        "atk%": 20, 
+        "def%": 20, 
+        "mag%": 20, 
+        "spr%": 20
+      }, 
+      {
+        "mag%": 50, 
+        "equipedConditions": [
+          "robe"
         ]
-      ]
+      }, 
+      {
+        "def%": 50, 
+        "equipedConditions": [
+          "helm"
+        ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "hat"
+        ]
+      }, 
+      {
+        "def%": 15, 
+        "spr%": 15, 
+        "equipedConditions": [
+          "lightShield"
+        ]
+      }
     ]
   }, 
   "Montana": {
@@ -4734,35 +4498,31 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "mp%": 20
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "mag%": 20, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }, 
-          {
-            "atk%": 20, 
-            "mag%": 20, 
-            "equipedConditions": [
-              "greatSword"
-            ]
-          }, 
-          {
-            "atk%": 20, 
-            "mag%": 20, 
-            "equipedConditions": [
-              "katana"
-            ]
-          }
+      {
+        "hp%": 20, 
+        "mp%": 20
+      }, 
+      {
+        "atk%": 20, 
+        "mag%": 20, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }, 
+      {
+        "atk%": 20, 
+        "mag%": 20, 
+        "equipedConditions": [
+          "greatSword"
+        ]
+      }, 
+      {
+        "atk%": 20, 
+        "mag%": 20, 
+        "equipedConditions": [
+          "katana"
+        ]
+      }
     ]
   }, 
   "Setzer": {
@@ -4797,21 +4557,17 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "atk%": 20, 
-          "spr%": 20
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "throwing"
-            ]
-          }
+      {
+        "mp%": 20, 
+        "atk%": 20, 
+        "spr%": 20
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "throwing"
         ]
-      ]
+      }
     ]
   }, 
   "Cloud of Darkness": {
@@ -4845,18 +4601,16 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 50, 
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 50, 
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Adam": {
@@ -4889,19 +4643,17 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "def%": 10, 
-          "spr%": 10, 
-          "killers": [
-            {
-              "name": "machine", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 30, 
+        "def%": 10, 
+        "spr%": 10, 
+        "killers": [
+          {
+            "name": "machine", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Popoi": {
@@ -4945,13 +4697,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "mp%": 30, 
-          "mag%": 50
-        }
-      ]
+      {
+        "hp%": 20, 
+        "mp%": 30, 
+        "mag%": 50
+      }
     ]
   }, 
   "Papalymo": {
@@ -4983,12 +4733,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 30
-        }
-      ]
+      {
+        "mp%": 20, 
+        "mag%": 30
+      }
     ]
   }, 
   "Terra": {
@@ -5023,12 +4771,10 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 50
-        }
-      ]
+      {
+        "mp%": 20, 
+        "mag%": 50
+      }
     ]
   }, 
   "Hunter Jake": {
@@ -5061,35 +4807,33 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "def%": 10, 
-          "spr%": 10, 
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 25
-            }, 
-            {
-              "name": "bird", 
-              "percent": 25
-            }, 
-            {
-              "name": "aquatic", 
-              "percent": 25
-            }, 
-            {
-              "name": "dragon", 
-              "percent": 25
-            }, 
-            {
-              "name": "bug", 
-              "percent": 25
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 10, 
+        "def%": 10, 
+        "spr%": 10, 
+        "killers": [
+          {
+            "name": "beast", 
+            "percent": 25
+          }, 
+          {
+            "name": "bird", 
+            "percent": 25
+          }, 
+          {
+            "name": "aquatic", 
+            "percent": 25
+          }, 
+          {
+            "name": "dragon", 
+            "percent": 25
+          }, 
+          {
+            "name": "bug", 
+            "percent": 25
+          }
+        ]
+      }
     ]
   }, 
   "Bartz": {
@@ -5136,25 +4880,21 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "mp%": 10, 
-          "atk%": 30, 
-          "def%": 30, 
-          "mag%": 10, 
-          "spr%": 10
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "mag%": 20, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "hp%": 30, 
+        "mp%": 10, 
+        "atk%": 30, 
+        "def%": 30, 
+        "mag%": 10, 
+        "spr%": 10
+      }, 
+      {
+        "atk%": 20, 
+        "mag%": 20, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }
     ]
   }, 
   "Sarai": {
@@ -5187,11 +4927,9 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20
-        }
-      ]
+      {
+        "mp%": 20
+      }
     ]
   }, 
   "Sara": {
@@ -5225,12 +4963,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 20
-        }
-      ]
+      {
+        "mp%": 20, 
+        "mag%": 20
+      }
     ]
   }, 
   "Hunter Fina": {
@@ -5263,42 +4999,38 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30, 
-          "def%": 20, 
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 25
-            }, 
-            {
-              "name": "bird", 
-              "percent": 25
-            }, 
-            {
-              "name": "aquatic", 
-              "percent": 25
-            }, 
-            {
-              "name": "dragon", 
-              "percent": 25
-            }, 
-            {
-              "name": "bug", 
-              "percent": 25
-            }
-          ]
-        }, 
-        [
+      {
+        "mp%": 30, 
+        "def%": 20, 
+        "killers": [
           {
-            "spr%": 60, 
-            "equipedConditions": [
-              "bow"
-            ]
+            "name": "beast", 
+            "percent": 25
+          }, 
+          {
+            "name": "bird", 
+            "percent": 25
+          }, 
+          {
+            "name": "aquatic", 
+            "percent": 25
+          }, 
+          {
+            "name": "dragon", 
+            "percent": 25
+          }, 
+          {
+            "name": "bug", 
+            "percent": 25
           }
         ]
-      ]
+      }, 
+      {
+        "spr%": 60, 
+        "equipedConditions": [
+          "bow"
+        ]
+      }
     ]
   }, 
   "Gaffgarion": {
@@ -5332,18 +5064,16 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 50, 
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 50, 
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Timothy": {
@@ -5374,12 +5104,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "spr%": 10
-        }
-      ]
+      {
+        "mp%": 20, 
+        "spr%": 10
+      }
     ]
   }, 
   "Dracu Lasswell": {
@@ -5415,11 +5143,9 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 30
-        }
-      ]
+      {
+        "atk%": 30
+      }
     ]
   }, 
   "Hunter Nichol": {
@@ -5451,35 +5177,33 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "atk%": 30, 
-          "dualWield": "all", 
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 25
-            }, 
-            {
-              "name": "bird", 
-              "percent": 25
-            }, 
-            {
-              "name": "aquatic", 
-              "percent": 25
-            }, 
-            {
-              "name": "dragon", 
-              "percent": 25
-            }, 
-            {
-              "name": "bug", 
-              "percent": 25
-            }
-          ]
-        }
-      ]
+      {
+        "mp%": 20, 
+        "atk%": 30, 
+        "dualWield": "all", 
+        "killers": [
+          {
+            "name": "beast", 
+            "percent": 25
+          }, 
+          {
+            "name": "bird", 
+            "percent": 25
+          }, 
+          {
+            "name": "aquatic", 
+            "percent": 25
+          }, 
+          {
+            "name": "dragon", 
+            "percent": 25
+          }, 
+          {
+            "name": "bug", 
+            "percent": 25
+          }
+        ]
+      }
     ]
   }, 
   "Thancred": {
@@ -5550,16 +5274,14 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Zargabaath": {
@@ -5594,72 +5316,68 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "def%": 20
-        }, 
-        [
-          {
-            "spr%": 30, 
-            "equipedConditions": [
-              "helm"
-            ]
-          }, 
-          {
-            "def%": 30, 
-            "equipedConditions": [
-              "lightArmor"
-            ]
-          }, 
-          {
-            "def%": 30, 
-            "equipedConditions": [
-              "heavyArmor"
-            ]
-          }, 
-          {
-            "atk%": 30, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }, 
-          {
-            "atk%": 30, 
-            "equipedConditions": [
-              "greatSword"
-            ]
-          }, 
-          {
-            "mag%": 30, 
-            "equipedConditions": [
-              "katana"
-            ]
-          }, 
-          {
-            "mag%": 30, 
-            "equipedConditions": [
-              "hammer"
-            ]
-          }, 
-          {
-            "mag%": 30, 
-            "equipedConditions": [
-              "spear"
-            ]
-          }, 
-          {
-            "hp%": 20, 
-            "atk%": 20, 
-            "equipedConditions": "light"
-          }, 
-          {
-            "mp%": 20, 
-            "mag%": 20, 
-            "equipedConditions": "fire"
-          }
+      {
+        "hp%": 30, 
+        "def%": 20
+      }, 
+      {
+        "spr%": 30, 
+        "equipedConditions": [
+          "helm"
         ]
-      ]
+      }, 
+      {
+        "def%": 30, 
+        "equipedConditions": [
+          "lightArmor"
+        ]
+      }, 
+      {
+        "def%": 30, 
+        "equipedConditions": [
+          "heavyArmor"
+        ]
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "sword"
+        ]
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "greatSword"
+        ]
+      }, 
+      {
+        "mag%": 30, 
+        "equipedConditions": [
+          "katana"
+        ]
+      }, 
+      {
+        "mag%": 30, 
+        "equipedConditions": [
+          "hammer"
+        ]
+      }, 
+      {
+        "mag%": 30, 
+        "equipedConditions": [
+          "spear"
+        ]
+      }, 
+      {
+        "hp%": 20, 
+        "atk%": 20, 
+        "equipedConditions": "light"
+      }, 
+      {
+        "mp%": 20, 
+        "mag%": 20, 
+        "equipedConditions": "fire"
+      }
     ]
   }, 
   "Ilias": {
@@ -5695,13 +5413,11 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 40, 
-          "spr%": 20
-        }
-      ]
+      {
+        "hp%": 10, 
+        "mp%": 40, 
+        "spr%": 20
+      }
     ]
   }, 
   "Mercedes": {
@@ -5736,26 +5452,22 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 20, 
-          "killers": [
-            {
-              "name": "aquatic", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 20, 
+        "atk%": 20, 
+        "killers": [
           {
-            "atk%": 50, 
-            "equipedConditions": [
-              "axe"
-            ]
+            "name": "aquatic", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "axe"
+        ]
+      }
     ]
   }, 
   "Veritas of the Heavens": {
@@ -5789,13 +5501,11 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "atk%": 20, 
-          "mag%": 20
-        }
-      ]
+      {
+        "mp%": 20, 
+        "atk%": 20, 
+        "mag%": 20
+      }
     ]
   }, 
   "Charlotte": {
@@ -5834,24 +5544,22 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 25, 
-          "atk%": 10, 
-          "def%": 30, 
-          "spr%": 10, 
-          "killers": [
-            {
-              "name": "undead", 
-              "percent": 50
-            }, 
-            {
-              "name": "demon", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 25, 
+        "atk%": 10, 
+        "def%": 30, 
+        "spr%": 10, 
+        "killers": [
+          {
+            "name": "undead", 
+            "percent": 50
+          }, 
+          {
+            "name": "demon", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Seabreeze Dark Fina": {
@@ -5885,12 +5593,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30, 
-          "mag%": 30
-        }
-      ]
+      {
+        "mp%": 30, 
+        "mag%": 30
+      }
     ]
   }, 
   "Fryevia": {
@@ -5924,21 +5630,17 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30, 
-          "mag%": 30
-        }, 
-        [
-          {
-            "atk%": 30, 
-            "mag%": 30, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "mp%": 30, 
+        "mag%": 30
+      }, 
+      {
+        "atk%": 30, 
+        "mag%": 30, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }
     ]
   }, 
   "Eight": {
@@ -5968,21 +5670,17 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 10, 
-          "def%": 10
-        }, 
-        [
-          {
-            "atk%": 30, 
-            "equipedConditions": [
-              "fist"
-            ]
-          }
+      {
+        "hp%": 10, 
+        "atk%": 10, 
+        "def%": 10
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "fist"
         ]
-      ]
+      }
     ]
   }, 
   "Tellah": {
@@ -6014,11 +5712,9 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mag%": 20
-        }
-      ]
+      {
+        "mag%": 20
+      }
     ]
   }, 
   "White Knight Noel": {
@@ -6055,51 +5751,47 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "mp%": 20, 
-          "mag%": 10
-        }, 
-        [
-          {
-            "mag%": 15, 
-            "equipedConditions": [
-              "rod"
-            ]
-          }, 
-          {
-            "def%": 15, 
-            "equipedConditions": [
-              "lightShield"
-            ]
-          }, 
-          {
-            "def%": 15, 
-            "equipedConditions": [
-              "heavyShield"
-            ]
-          }, 
-          {
-            "def%": 30, 
-            "equipedConditions": [
-              "lightArmor"
-            ]
-          }, 
-          {
-            "def%": 30, 
-            "equipedConditions": [
-              "heavyArmor"
-            ]
-          }, 
-          {
-            "mag%": 30, 
-            "equipedConditions": [
-              "robe"
-            ]
-          }
+      {
+        "hp%": 30, 
+        "mp%": 20, 
+        "mag%": 10
+      }, 
+      {
+        "mag%": 15, 
+        "equipedConditions": [
+          "rod"
         ]
-      ]
+      }, 
+      {
+        "def%": 15, 
+        "equipedConditions": [
+          "lightShield"
+        ]
+      }, 
+      {
+        "def%": 15, 
+        "equipedConditions": [
+          "heavyShield"
+        ]
+      }, 
+      {
+        "def%": 30, 
+        "equipedConditions": [
+          "lightArmor"
+        ]
+      }, 
+      {
+        "def%": 30, 
+        "equipedConditions": [
+          "heavyArmor"
+        ]
+      }, 
+      {
+        "mag%": 30, 
+        "equipedConditions": [
+          "robe"
+        ]
+      }
     ]
   }, 
   "Maxell": {
@@ -6131,12 +5823,10 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 10, 
-          "atk%": 10
-        }
-      ]
+      {
+        "mp%": 10, 
+        "atk%": 10
+      }
     ]
   }, 
   "Knight Delita": {
@@ -6178,27 +5868,23 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 30, 
-          "def%": 20
-        }, 
-        [
-          {
-            "atk%": 30, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }, 
-          {
-            "atk%": 20, 
-            "equipedConditions": [
-              "heavyArmor"
-            ]
-          }
+      {
+        "hp%": 30, 
+        "atk%": 30, 
+        "def%": 20
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }, 
+      {
+        "atk%": 20, 
+        "equipedConditions": [
+          "heavyArmor"
+        ]
+      }
     ]
   }, 
   "Kenyu": {
@@ -6228,11 +5914,9 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 60
-        }
-      ]
+      {
+        "hp%": 60
+      }
     ]
   }, 
   "Fencer": {
@@ -6269,19 +5953,15 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 20
-        }, 
-        [
-          {
-            "atk%": 30, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "atk%": 20
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }
     ]
   }, 
   "Duane": {
@@ -6319,12 +5999,10 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 20, 
-          "def%": 10
-        }
-      ]
+      {
+        "atk%": 20, 
+        "def%": 10
+      }
     ]
   }, 
   "Ramza": {
@@ -6366,15 +6044,13 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 20, 
-          "def%": 20, 
-          "mag%": 30, 
-          "spr%": 20
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 20, 
+        "def%": 20, 
+        "mag%": 30, 
+        "spr%": 20
+      }
     ]
   }, 
   "Emperor": {
@@ -6406,12 +6082,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 30
-        }
-      ]
+      {
+        "mp%": 20, 
+        "mag%": 30
+      }
     ]
   }, 
   "Thief": {
@@ -6483,15 +6157,13 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "mp%": 20, 
-          "atk%": 10, 
-          "def%": 20, 
-          "spr%": 20
-        }
-      ]
+      {
+        "hp%": 20, 
+        "mp%": 20, 
+        "atk%": 10, 
+        "def%": 20, 
+        "spr%": 20
+      }
     ]
   }, 
   "Shantotto": {
@@ -6559,19 +6231,15 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20
-        }, 
-        [
-          {
-            "mag%": 30, 
-            "equipedConditions": [
-              "staff"
-            ]
-          }
+      {
+        "mp%": 20
+      }, 
+      {
+        "mag%": 30, 
+        "equipedConditions": [
+          "staff"
         ]
-      ]
+      }
     ]
   }, 
   "Vaan": {
@@ -6613,19 +6281,17 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 50, 
-          "def%": 20, 
-          "killers": [
-            {
-              "name": "bird", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 50, 
+        "def%": 20, 
+        "killers": [
+          {
+            "name": "bird", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Crowe": {
@@ -6660,13 +6326,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 20, 
-          "spr%": 20
-        }
-      ]
+      {
+        "mp%": 20, 
+        "mag%": 20, 
+        "spr%": 20
+      }
     ]
   }, 
   "Maxwell": {
@@ -6697,18 +6361,16 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 30, 
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 30, 
+        "atk%": 30, 
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Wilhelm": {
@@ -6744,27 +6406,23 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "def%": 30, 
-          "spr%": 20
-        }, 
-        [
-          {
-            "def%": 25, 
-            "equipedConditions": [
-              "heavyShield"
-            ]
-          }, 
-          {
-            "def%": 25, 
-            "equipedConditions": [
-              "heavyArmor"
-            ]
-          }
+      {
+        "hp%": 30, 
+        "def%": 30, 
+        "spr%": 20
+      }, 
+      {
+        "def%": 25, 
+        "equipedConditions": [
+          "heavyShield"
         ]
-      ]
+      }, 
+      {
+        "def%": 25, 
+        "equipedConditions": [
+          "heavyArmor"
+        ]
+      }
     ]
   }, 
   "Orlandeau": {
@@ -6802,20 +6460,16 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 30
-        }, 
-        [
-          {
-            "atk%": 40, 
-            "equipedConditions": [
-              "greatSword"
-            ]
-          }
+      {
+        "hp%": 30, 
+        "atk%": 30
+      }, 
+      {
+        "atk%": 40, 
+        "equipedConditions": [
+          "greatSword"
         ]
-      ]
+      }
     ]
   }, 
   "Orran": {
@@ -6850,13 +6504,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 20, 
-          "spr%": 40
-        }
-      ]
+      {
+        "mp%": 20, 
+        "mag%": 20, 
+        "spr%": 40
+      }
     ]
   }, 
   "Gilbert": {
@@ -6923,22 +6575,18 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 20, 
-          "mag%": 20, 
-          "dualWield": "all"
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "dagger"
-            ]
-          }
+      {
+        "hp%": 20, 
+        "atk%": 20, 
+        "mag%": 20, 
+        "dualWield": "all"
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "dagger"
         ]
-      ]
+      }
     ]
   }, 
   "Nichol": {
@@ -6971,12 +6619,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 10, 
-          "mag%": 10
-        }
-      ]
+      {
+        "mp%": 10, 
+        "mag%": 10
+      }
     ]
   }, 
   "Biggs": {
@@ -7054,149 +6700,145 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 10, 
-          "def%": 10, 
-          "killers": [
-            {
-              "name": "plant", 
-              "percent": 50
-            }, 
-            {
-              "name": "bug", 
-              "percent": 50
-            }, 
-            {
-              "name": "bird", 
-              "percent": 50
-            }, 
-            {
-              "name": "dragon", 
-              "percent": 50
-            }, 
-            {
-              "name": "demon", 
-              "percent": 50
-            }, 
-            {
-              "name": "beast", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 20, 
+        "atk%": 10, 
+        "def%": 10, 
+        "killers": [
           {
-            "mag%": 30, 
-            "spr%": 30, 
-            "equipedConditions": [
-              "staff"
-            ]
+            "name": "plant", 
+            "percent": 50
           }, 
           {
-            "mag%": 30, 
-            "spr%": 30, 
-            "equipedConditions": [
-              "rod"
-            ]
+            "name": "bug", 
+            "percent": 50
           }, 
           {
-            "mag%": 30, 
-            "spr%": 30, 
-            "equipedConditions": [
-              "harp"
-            ]
+            "name": "bird", 
+            "percent": 50
           }, 
           {
-            "mag%": 30, 
-            "spr%": 30, 
-            "equipedConditions": [
-              "mace"
-            ]
+            "name": "dragon", 
+            "percent": 50
           }, 
           {
-            "atk%": 25, 
-            "spr%": 30, 
-            "equipedConditions": [
-              "bow"
-            ]
+            "name": "demon", 
+            "percent": 50
           }, 
           {
-            "atk%": 25, 
-            "spr%": 30, 
-            "equipedConditions": [
-              "whip"
-            ]
-          }, 
-          {
-            "atk%": 25, 
-            "spr%": 30, 
-            "equipedConditions": [
-              "throwing"
-            ]
-          }, 
-          {
-            "atk%": 25, 
-            "spr%": 30, 
-            "equipedConditions": [
-              "gun"
-            ]
-          }, 
-          {
-            "atk%": 30, 
-            "equipedConditions": [
-              "axe"
-            ]
-          }, 
-          {
-            "atk%": 30, 
-            "equipedConditions": [
-              "hammer"
-            ]
-          }, 
-          {
-            "atk%": 30, 
-            "equipedConditions": [
-              "spear"
-            ]
-          }, 
-          {
-            "atk%": 30, 
-            "equipedConditions": [
-              "fist"
-            ]
-          }, 
-          {
-            "atk%": 20, 
-            "def%": 20, 
-            "equipedConditions": [
-              "dagger"
-            ]
-          }, 
-          {
-            "atk%": 20, 
-            "def%": 20, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }, 
-          {
-            "atk%": 20, 
-            "def%": 20, 
-            "equipedConditions": [
-              "greatSword"
-            ]
-          }, 
-          {
-            "atk%": 20, 
-            "def%": 20, 
-            "equipedConditions": [
-              "katana"
-            ]
+            "name": "beast", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "mag%": 30, 
+        "spr%": 30, 
+        "equipedConditions": [
+          "staff"
+        ]
+      }, 
+      {
+        "mag%": 30, 
+        "spr%": 30, 
+        "equipedConditions": [
+          "rod"
+        ]
+      }, 
+      {
+        "mag%": 30, 
+        "spr%": 30, 
+        "equipedConditions": [
+          "harp"
+        ]
+      }, 
+      {
+        "mag%": 30, 
+        "spr%": 30, 
+        "equipedConditions": [
+          "mace"
+        ]
+      }, 
+      {
+        "atk%": 25, 
+        "spr%": 30, 
+        "equipedConditions": [
+          "bow"
+        ]
+      }, 
+      {
+        "atk%": 25, 
+        "spr%": 30, 
+        "equipedConditions": [
+          "whip"
+        ]
+      }, 
+      {
+        "atk%": 25, 
+        "spr%": 30, 
+        "equipedConditions": [
+          "throwing"
+        ]
+      }, 
+      {
+        "atk%": 25, 
+        "spr%": 30, 
+        "equipedConditions": [
+          "gun"
+        ]
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "axe"
+        ]
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "hammer"
+        ]
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "spear"
+        ]
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "fist"
+        ]
+      }, 
+      {
+        "atk%": 20, 
+        "def%": 20, 
+        "equipedConditions": [
+          "dagger"
+        ]
+      }, 
+      {
+        "atk%": 20, 
+        "def%": 20, 
+        "equipedConditions": [
+          "sword"
+        ]
+      }, 
+      {
+        "atk%": 20, 
+        "def%": 20, 
+        "equipedConditions": [
+          "greatSword"
+        ]
+      }, 
+      {
+        "atk%": 20, 
+        "def%": 20, 
+        "equipedConditions": [
+          "katana"
+        ]
+      }
     ]
   }, 
   "Chizuru": {
@@ -7230,22 +6872,18 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 20
-        }, 
-        [
-          {
-            "atk%": 25, 
-            "def%": 25, 
-            "mag%": 25, 
-            "spr%": 25, 
-            "equipedConditions": [
-              "katana"
-            ]
-          }
+      {
+        "atk%": 20
+      }, 
+      {
+        "atk%": 25, 
+        "def%": 25, 
+        "mag%": 25, 
+        "spr%": 25, 
+        "equipedConditions": [
+          "katana"
         ]
-      ]
+      }
     ]
   }, 
   "Arc": {
@@ -7277,12 +6915,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 20
-        }
-      ]
+      {
+        "mp%": 20, 
+        "mag%": 20
+      }
     ]
   }, 
   "Hope": {
@@ -7318,13 +6954,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "def%": 20, 
-          "mag%": 20
-        }
-      ]
+      {
+        "mp%": 20, 
+        "def%": 20, 
+        "mag%": 20
+      }
     ]
   }, 
   "Seven": {
@@ -7356,15 +6990,13 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 10, 
-          "def%": 20, 
-          "mag%": 30, 
-          "spr%": 10
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 10, 
+        "def%": 20, 
+        "mag%": 30, 
+        "spr%": 10
+      }
     ]
   }, 
   "Clyne": {
@@ -7401,17 +7033,15 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "def%": 10, 
-          "killers": [
-            {
-              "name": "demon", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "def%": 10, 
+        "killers": [
+          {
+            "name": "demon", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Loren": {
@@ -7448,23 +7078,19 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 30, 
-          "def%": 30, 
-          "spr%": 30, 
-          "dualWield": "all"
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "hp%": 30, 
+        "atk%": 30, 
+        "def%": 30, 
+        "spr%": 30, 
+        "dualWield": "all"
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }
     ]
   }, 
   "Robyn": {
@@ -7509,13 +7135,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 20, 
-          "spr%": 20
-        }
-      ]
+      {
+        "hp%": 10, 
+        "atk%": 20, 
+        "spr%": 20
+      }
     ]
   }, 
   "2B": {
@@ -7555,19 +7179,17 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 40, 
-          "atk%": 80, 
-          "dualWield": "all", 
-          "killers": [
-            {
-              "name": "machine", 
-              "percent": 100
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 40, 
+        "atk%": 80, 
+        "dualWield": "all", 
+        "killers": [
+          {
+            "name": "machine", 
+            "percent": 100
+          }
+        ]
+      }
     ]
   }, 
   "Leah": {
@@ -7666,18 +7288,16 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10, 
-          "def%": 10, 
-          "killers": [
-            {
-              "name": "dragon", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "atk%": 10, 
+        "def%": 10, 
+        "killers": [
+          {
+            "name": "dragon", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Amarant": {
@@ -7708,11 +7328,9 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10
-        }
-      ]
+      {
+        "hp%": 10
+      }
     ]
   }, 
   "Black Cat Lid": {
@@ -7749,23 +7367,21 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 20, 
-          "spr%": 10, 
-          "killers": [
-            {
-              "name": "undead", 
-              "percent": 50
-            }, 
-            {
-              "name": "machine", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 20, 
+        "spr%": 10, 
+        "killers": [
+          {
+            "name": "undead", 
+            "percent": 50
+          }, 
+          {
+            "name": "machine", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Balthier": {
@@ -7801,21 +7417,17 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 30, 
-          "def%": 20
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "gun"
-            ]
-          }
+      {
+        "hp%": 20, 
+        "atk%": 30, 
+        "def%": 20
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "gun"
         ]
-      ]
+      }
     ]
   }, 
   "Fina": {
@@ -7848,20 +7460,16 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30, 
-          "spr%": 30
-        }, 
-        [
-          {
-            "spr%": 20, 
-            "equipedConditions": [
-              "bow"
-            ]
-          }
+      {
+        "mp%": 30, 
+        "spr%": 30
+      }, 
+      {
+        "spr%": 20, 
+        "equipedConditions": [
+          "bow"
         ]
-      ]
+      }
     ]
   }, 
   "Werei": {
@@ -7901,20 +7509,16 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 30
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "equipedConditions": [
-              "greatSword"
-            ]
-          }
+      {
+        "hp%": 20, 
+        "atk%": 30
+      }, 
+      {
+        "atk%": 20, 
+        "equipedConditions": [
+          "greatSword"
         ]
-      ]
+      }
     ]
   }, 
   "Aria": {
@@ -7947,12 +7551,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "spr%": 30
-        }
-      ]
+      {
+        "mp%": 20, 
+        "spr%": 30
+      }
     ]
   }, 
   "Nine": {
@@ -7983,28 +7585,24 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 40, 
-          "def%": 10, 
-          "spr%": 20, 
-          "killers": [
-            {
-              "name": "demon", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 20, 
+        "atk%": 40, 
+        "def%": 10, 
+        "spr%": 20, 
+        "killers": [
           {
-            "atk%": 30, 
-            "equipedConditions": [
-              "spear"
-            ]
+            "name": "demon", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "spear"
+        ]
+      }
     ]
   }, 
   "Beach Time Fina": {
@@ -8037,12 +7635,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "spr%": 10
-        }
-      ]
+      {
+        "mp%": 20, 
+        "spr%": 10
+      }
     ]
   }, 
   "Hunter Lid": {
@@ -8076,35 +7672,33 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 10, 
-          "def%": 10, 
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 25
-            }, 
-            {
-              "name": "bird", 
-              "percent": 25
-            }, 
-            {
-              "name": "aquatic", 
-              "percent": 25
-            }, 
-            {
-              "name": "dragon", 
-              "percent": 25
-            }, 
-            {
-              "name": "bug", 
-              "percent": 25
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 10, 
+        "atk%": 10, 
+        "def%": 10, 
+        "killers": [
+          {
+            "name": "beast", 
+            "percent": 25
+          }, 
+          {
+            "name": "bird", 
+            "percent": 25
+          }, 
+          {
+            "name": "aquatic", 
+            "percent": 25
+          }, 
+          {
+            "name": "dragon", 
+            "percent": 25
+          }, 
+          {
+            "name": "bug", 
+            "percent": 25
+          }
+        ]
+      }
     ]
   }, 
   "Refia": {
@@ -8137,13 +7731,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 20, 
-          "spr%": 30
-        }
-      ]
+      {
+        "hp%": 10, 
+        "mp%": 20, 
+        "spr%": 30
+      }
     ]
   }, 
   "Randi": {
@@ -8185,57 +7777,53 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 30, 
-          "def%": 20, 
-          "killers": [
-            {
-              "name": "spirit", 
-              "percent": 50
-            }, 
-            {
-              "name": "beast", 
-              "percent": 50
-            }, 
-            {
-              "name": "undead", 
-              "percent": 50
-            }, 
-            {
-              "name": "beast", 
-              "percent": 75
-            }, 
-            {
-              "name": "dragon", 
-              "percent": 75
-            }, 
-            {
-              "name": "undead", 
-              "percent": 75
-            }, 
-            {
-              "name": "spirit", 
-              "percent": 75
-            }, 
-            {
-              "name": "dragon", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 20, 
+        "atk%": 30, 
+        "def%": 20, 
+        "killers": [
           {
-            "atk%": 35, 
-            "def%": 20, 
-            "spr%": 20, 
-            "equipedConditions": [
-              "sword"
-            ]
+            "name": "spirit", 
+            "percent": 50
+          }, 
+          {
+            "name": "beast", 
+            "percent": 50
+          }, 
+          {
+            "name": "undead", 
+            "percent": 50
+          }, 
+          {
+            "name": "beast", 
+            "percent": 75
+          }, 
+          {
+            "name": "dragon", 
+            "percent": 75
+          }, 
+          {
+            "name": "undead", 
+            "percent": 75
+          }, 
+          {
+            "name": "spirit", 
+            "percent": 75
+          }, 
+          {
+            "name": "dragon", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 35, 
+        "def%": 20, 
+        "spr%": 20, 
+        "equipedConditions": [
+          "sword"
+        ]
+      }
     ]
   }, 
   "Alma": {
@@ -8264,13 +7852,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 10, 
-          "spr%": 20
-        }
-      ]
+      {
+        "mp%": 20, 
+        "mag%": 10, 
+        "spr%": 20
+      }
     ]
   }, 
   "Noctis": {
@@ -8309,76 +7895,72 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 15, 
-          "mp%": 15
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "def%": 15, 
-            "equipedConditions": [
-              "dagger"
-            ]
-          }, 
-          {
-            "atk%": 20, 
-            "spr%": 15, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }, 
-          {
-            "atk%": 35, 
-            "equipedConditions": [
-              "greatSword"
-            ]
-          }, 
-          {
-            "def%": 20, 
-            "spr%": 20, 
-            "equipedConditions": [
-              "lightShield"
-            ]
-          }, 
-          {
-            "def%": 20, 
-            "spr%": 20, 
-            "equipedConditions": [
-              "heavyShield"
-            ]
-          }, 
-          {
-            "mag%": 20, 
-            "spr%": 20, 
-            "equipedConditions": [
-              "throwing"
-            ]
-          }, 
-          {
-            "def%": 20, 
-            "mag%": 20, 
-            "equipedConditions": [
-              "gun"
-            ]
-          }, 
-          {
-            "atk%": 20, 
-            "mag%": 20, 
-            "equipedConditions": [
-              "katana"
-            ]
-          }, 
-          {
-            "atk%": 20, 
-            "spr%": 20, 
-            "equipedConditions": [
-              "spear"
-            ]
-          }
+      {
+        "hp%": 15, 
+        "mp%": 15
+      }, 
+      {
+        "atk%": 20, 
+        "def%": 15, 
+        "equipedConditions": [
+          "dagger"
         ]
-      ]
+      }, 
+      {
+        "atk%": 20, 
+        "spr%": 15, 
+        "equipedConditions": [
+          "sword"
+        ]
+      }, 
+      {
+        "atk%": 35, 
+        "equipedConditions": [
+          "greatSword"
+        ]
+      }, 
+      {
+        "def%": 20, 
+        "spr%": 20, 
+        "equipedConditions": [
+          "lightShield"
+        ]
+      }, 
+      {
+        "def%": 20, 
+        "spr%": 20, 
+        "equipedConditions": [
+          "heavyShield"
+        ]
+      }, 
+      {
+        "mag%": 20, 
+        "spr%": 20, 
+        "equipedConditions": [
+          "throwing"
+        ]
+      }, 
+      {
+        "def%": 20, 
+        "mag%": 20, 
+        "equipedConditions": [
+          "gun"
+        ]
+      }, 
+      {
+        "atk%": 20, 
+        "mag%": 20, 
+        "equipedConditions": [
+          "katana"
+        ]
+      }, 
+      {
+        "atk%": 20, 
+        "spr%": 20, 
+        "equipedConditions": [
+          "spear"
+        ]
+      }
     ]
   }, 
   "Skaha": {
@@ -8412,11 +7994,9 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 20
-        }
-      ]
+      {
+        "atk%": 20
+      }
     ]
   }, 
   "Yun": {
@@ -8451,33 +8031,29 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 30, 
-          "def%": 30, 
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 30, 
+        "atk%": 30, 
+        "def%": 30, 
+        "killers": [
           {
-            "atk%": 50, 
-            "equipedConditions": [
-              "clothes"
-            ]
-          }, 
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "lightArmor"
-            ]
+            "name": "beast", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "clothes"
+        ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "lightArmor"
+        ]
+      }
     ]
   }, 
   "Sabin": {
@@ -8507,11 +8083,9 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20
-        }
-      ]
+      {
+        "hp%": 20
+      }
     ]
   }, 
   "キラーマシン": {
@@ -8548,12 +8122,10 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 30
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 30
+      }
     ]
   }, 
   "Luka": {
@@ -8586,12 +8158,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "spr%": 30
-        }
-      ]
+      {
+        "mp%": 20, 
+        "spr%": 30
+      }
     ]
   }, 
   "Fohlen": {
@@ -8626,22 +8196,18 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 40, 
-          "mp%": 10, 
-          "atk%": 30, 
-          "def%": 20
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "spear"
-            ]
-          }
+      {
+        "hp%": 40, 
+        "mp%": 10, 
+        "atk%": 30, 
+        "def%": 20
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "spear"
         ]
-      ]
+      }
     ]
   }, 
   "Rydia": {
@@ -8675,12 +8241,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 10, 
-          "mag%": 20
-        }
-      ]
+      {
+        "mp%": 10, 
+        "mag%": 20
+      }
     ]
   }, 
   "Gimlee": {
@@ -8711,20 +8275,18 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 50
-            }, 
-            {
-              "name": "bird", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "killers": [
+          {
+            "name": "beast", 
+            "percent": 50
+          }, 
+          {
+            "name": "bird", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Adel": {
@@ -8760,12 +8322,10 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10, 
-          "def%": 10
-        }
-      ]
+      {
+        "atk%": 10, 
+        "def%": 10
+      }
     ]
   }, 
   "Zidane": {
@@ -8829,11 +8389,9 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10
-        }
-      ]
+      {
+        "atk%": 10
+      }
     ]
   }, 
   "Minfilia": {
@@ -8867,16 +8425,14 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 10, 
-          "atk%": 10, 
-          "def%": 10, 
-          "mag%": 10, 
-          "spr%": 10
-        }
-      ]
+      {
+        "hp%": 10, 
+        "mp%": 10, 
+        "atk%": 10, 
+        "def%": 10, 
+        "mag%": 10, 
+        "spr%": 10
+      }
     ]
   }, 
   "Harid": {
@@ -8921,22 +8477,18 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 10, 
-          "atk%": 20, 
-          "def%": 20, 
-          "spr%": 10
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "mp%": 10, 
+        "atk%": 20, 
+        "def%": 20, 
+        "spr%": 10
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }
     ]
   }, 
   "King": {
@@ -8968,14 +8520,12 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 70, 
-          "def%": 20, 
-          "dualWield": "gun"
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 70, 
+        "def%": 20, 
+        "dualWield": "gun"
+      }
     ]
   }, 
   "Kelsus": {
@@ -9016,14 +8566,12 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 30, 
-          "def%": 20, 
-          "dualWield": "fist"
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 30, 
+        "def%": 20, 
+        "dualWield": "fist"
+      }
     ]
   }, 
   "Reberta": {
@@ -9058,27 +8606,23 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 30, 
-          "def%": 20, 
-          "killers": [
-            {
-              "name": "dragon", 
-              "percent": 100
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 20, 
+        "atk%": 30, 
+        "def%": 20, 
+        "killers": [
           {
-            "atk%": 50, 
-            "equipedConditions": [
-              "spear"
-            ]
+            "name": "dragon", 
+            "percent": 100
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "spear"
+        ]
+      }
     ]
   }, 
   "Juggler": {
@@ -9147,22 +8691,18 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 20, 
-          "def%": 20
-        }, 
-        [
-          {
-            "atk%": 30, 
-            "def%": 20, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "hp%": 10, 
+        "atk%": 20, 
+        "def%": 20
+      }, 
+      {
+        "atk%": 30, 
+        "def%": 20, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }
     ]
   }, 
   "Paula": {
@@ -9232,12 +8772,10 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 30
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 30
+      }
     ]
   }, 
   "Ruggles": {
@@ -9282,12 +8820,10 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 10
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 10
+      }
     ]
   }, 
   "Dark Fina": {
@@ -9321,12 +8857,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30, 
-          "mag%": 30
-        }
-      ]
+      {
+        "mp%": 30, 
+        "mag%": 30
+      }
     ]
   }, 
   "Aura": {
@@ -9360,21 +8894,17 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "atk%": 20, 
-          "spr%": 20
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "spear"
-            ]
-          }
+      {
+        "mp%": 20, 
+        "atk%": 20, 
+        "spr%": 20
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "spear"
         ]
-      ]
+      }
     ]
   }, 
   "Edgar": {
@@ -9442,20 +8972,16 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 20, 
-          "def%": 20
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "equipedConditions": [
-              "spear"
-            ]
-          }
+      {
+        "atk%": 20, 
+        "def%": 20
+      }, 
+      {
+        "atk%": 20, 
+        "equipedConditions": [
+          "spear"
         ]
-      ]
+      }
     ]
   }, 
   "Grace": {
@@ -9492,11 +9018,9 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 60
-        }
-      ]
+      {
+        "hp%": 60
+      }
     ]
   }, 
   "Karl": {
@@ -9530,22 +9054,20 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 20, 
-          "def%": 10, 
-          "killers": [
-            {
-              "name": "demon", 
-              "percent": 50
-            }, 
-            {
-              "name": "beast", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "atk%": 20, 
+        "def%": 10, 
+        "killers": [
+          {
+            "name": "demon", 
+            "percent": 50
+          }, 
+          {
+            "name": "beast", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Demon Rain": {
@@ -9581,11 +9103,9 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10
-        }
-      ]
+      {
+        "hp%": 10
+      }
     ]
   }, 
   "Miyuki": {
@@ -9646,12 +9166,10 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 30, 
-          "def%": 20
-        }
-      ]
+      {
+        "atk%": 30, 
+        "def%": 20
+      }
     ]
   }, 
   "Veritas of the Flame": {
@@ -9694,22 +9212,18 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "mp%": 10, 
-          "atk%": 20, 
-          "def%": 20
-        }, 
-        [
-          {
-            "atk%": 50, 
-            "equipedConditions": [
-              "axe"
-            ]
-          }
+      {
+        "hp%": 30, 
+        "mp%": 10, 
+        "atk%": 20, 
+        "def%": 20
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "axe"
         ]
-      ]
+      }
     ]
   }, 
   "Lid": {
@@ -9746,18 +9260,16 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10, 
-          "spr%": 10, 
-          "killers": [
-            {
-              "name": "machine", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "atk%": 10, 
+        "spr%": 10, 
+        "killers": [
+          {
+            "name": "machine", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Cerius": {
@@ -9794,11 +9306,9 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30
-        }
-      ]
+      {
+        "mp%": 30
+      }
     ]
   }, 
   "Hayate": {
@@ -9831,19 +9341,17 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 20, 
-          "mag%": 30, 
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 10, 
+        "atk%": 20, 
+        "mag%": 30, 
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Medius": {
@@ -9875,19 +9383,15 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "equipedConditions": [
-              "gun"
-            ]
-          }
+      {
+        "hp%": 20
+      }, 
+      {
+        "atk%": 20, 
+        "equipedConditions": [
+          "gun"
         ]
-      ]
+      }
     ]
   }, 
   "Kefka": {
@@ -9921,18 +9425,16 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 40, 
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 0
-            }
-          ]
-        }
-      ]
+      {
+        "mp%": 20, 
+        "mag%": 40, 
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 0
+          }
+        ]
+      }
     ]
   }, 
   "Prishe": {
@@ -9969,22 +9471,18 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 50, 
-          "atk%": 30, 
-          "spr%": 20
-        }, 
-        [
-          {
-            "atk%": 30, 
-            "spr%": 30, 
-            "equipedConditions": [
-              "fist"
-            ]
-          }
+      {
+        "hp%": 50, 
+        "atk%": 30, 
+        "spr%": 20
+      }, 
+      {
+        "atk%": 30, 
+        "spr%": 30, 
+        "equipedConditions": [
+          "fist"
         ]
-      ]
+      }
     ]
   }, 
   "りゅうおう": {
@@ -10018,12 +9516,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "mag%": 30
-        }
-      ]
+      {
+        "hp%": 20, 
+        "mag%": 30
+      }
     ]
   }, 
   "Yuri": {
@@ -10062,13 +9558,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "atk%": 10, 
-          "mag%": 10
-        }
-      ]
+      {
+        "hp%": 10, 
+        "atk%": 10, 
+        "mag%": 10
+      }
     ]
   }, 
   "Lightning": {
@@ -10108,13 +9602,11 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 30, 
-          "dualWield": "all"
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 30, 
+        "dualWield": "all"
+      }
     ]
   }, 
   "Santa Roselia": {
@@ -10148,12 +9640,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "spr%": 50
-        }
-      ]
+      {
+        "hp%": 20, 
+        "spr%": 50
+      }
     ]
   }, 
   "スライム": {
@@ -10219,12 +9709,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30, 
-          "spr%": 30
-        }
-      ]
+      {
+        "mp%": 30, 
+        "spr%": 30
+      }
     ]
   }, 
   "Sazh": {
@@ -10258,19 +9746,15 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "equipedConditions": [
-              "gun"
-            ]
-          }
+      {
+        "hp%": 20
+      }, 
+      {
+        "atk%": 20, 
+        "equipedConditions": [
+          "gun"
         ]
-      ]
+      }
     ]
   }, 
   "Trey": {
@@ -10300,11 +9784,9 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10
-        }
-      ]
+      {
+        "atk%": 10
+      }
     ]
   }, 
   "Moogle": {
@@ -10333,16 +9815,14 @@
       "hat"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 10, 
-          "atk%": 10, 
-          "def%": 10, 
-          "mag%": 10, 
-          "spr%": 10
-        }
-      ]
+      {
+        "hp%": 10, 
+        "mp%": 10, 
+        "atk%": 10, 
+        "def%": 10, 
+        "mag%": 10, 
+        "spr%": 10
+      }
     ]
   }, 
   "Olive": {
@@ -10374,27 +9854,23 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 30, 
-          "spr%": 20, 
-          "killers": [
-            {
-              "name": "machine", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 20, 
+        "atk%": 30, 
+        "spr%": 20, 
+        "killers": [
           {
-            "atk%": 50, 
-            "equipedConditions": [
-              "gun"
-            ]
+            "name": "machine", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "gun"
+        ]
+      }
     ]
   }, 
   "Guromu": {
@@ -10429,13 +9905,11 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 10, 
-          "def%": 10
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 10, 
+        "def%": 10
+      }
     ]
   }, 
   "Edge": {
@@ -10470,17 +9944,15 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10, 
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "atk%": 10, 
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Hunter Sakura": {
@@ -10511,42 +9983,38 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "def%": 20, 
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 25
-            }, 
-            {
-              "name": "bird", 
-              "percent": 25
-            }, 
-            {
-              "name": "aquatic", 
-              "percent": 25
-            }, 
-            {
-              "name": "dragon", 
-              "percent": 25
-            }, 
-            {
-              "name": "bug", 
-              "percent": 25
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 30, 
+        "def%": 20, 
+        "killers": [
           {
-            "def%": 60, 
-            "equipedConditions": [
-              "heavyArmor"
-            ]
+            "name": "beast", 
+            "percent": 25
+          }, 
+          {
+            "name": "bird", 
+            "percent": 25
+          }, 
+          {
+            "name": "aquatic", 
+            "percent": 25
+          }, 
+          {
+            "name": "dragon", 
+            "percent": 25
+          }, 
+          {
+            "name": "bug", 
+            "percent": 25
           }
         ]
-      ]
+      }, 
+      {
+        "def%": 60, 
+        "equipedConditions": [
+          "heavyArmor"
+        ]
+      }
     ]
   }, 
   "Luna": {
@@ -10577,16 +10045,14 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "killers": [
+          {
+            "name": "beast", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "<na>": {
@@ -10622,13 +10088,11 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 20, 
-          "def%": 20
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 20, 
+        "def%": 20
+      }
     ]
   }, 
   "Ronaldo": {
@@ -10694,47 +10158,43 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "atk%": 25, 
-          "def%": 25, 
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 50
-            }, 
-            {
-              "name": "undead", 
-              "percent": 50
-            }, 
-            {
-              "name": "demon", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 30, 
+        "atk%": 25, 
+        "def%": 25, 
+        "killers": [
           {
-            "atk%": 75, 
-            "equipedConditions": [
-              "bow"
-            ]
+            "name": "beast", 
+            "percent": 50
           }, 
           {
-            "atk%": 30, 
-            "equipedConditions": [
-              "throwing"
-            ]
+            "name": "undead", 
+            "percent": 50
           }, 
           {
-            "atk%": 30, 
-            "equipedConditions": [
-              "dagger"
-            ]
+            "name": "demon", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 75, 
+        "equipedConditions": [
+          "bow"
+        ]
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "throwing"
+        ]
+      }, 
+      {
+        "atk%": 30, 
+        "equipedConditions": [
+          "dagger"
+        ]
+      }
     ]
   }, 
   "Jean": {
@@ -10770,19 +10230,17 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 10, 
-          "atk%": 10, 
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 10, 
+        "mp%": 10, 
+        "atk%": 10, 
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Celes": {
@@ -10820,11 +10278,9 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "mag%": 10
-        }
-      ]
+      {
+        "mag%": 10
+      }
     ]
   }, 
   "Fran": {
@@ -10888,12 +10344,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "spr%": 20
-        }
-      ]
+      {
+        "mp%": 20, 
+        "spr%": 20
+      }
     ]
   }, 
   "Heltich": {
@@ -10928,12 +10382,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "mag%": 20
-        }
-      ]
+      {
+        "mp%": 20, 
+        "mag%": 20
+      }
     ]
   }, 
   "Glauca": {
@@ -10965,29 +10417,25 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 40, 
-          "killers": [
-            {
-              "name": "machine", 
-              "percent": 50
-            }, 
-            {
-              "name": "human", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 40, 
+        "killers": [
           {
-            "atk%": 50, 
-            "equipedConditions": [
-              "greatSword"
-            ]
+            "name": "machine", 
+            "percent": 50
+          }, 
+          {
+            "name": "human", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "greatSword"
+        ]
+      }
     ]
   }, 
   "Cupid Luna": {
@@ -11018,23 +10466,21 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 80, 
-          "mag%": 70, 
-          "killers": [
-            {
-              "name": "spirit", 
-              "percent": 50
-            }, 
-            {
-              "name": "human", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 20, 
+        "atk%": 80, 
+        "mag%": 70, 
+        "killers": [
+          {
+            "name": "spirit", 
+            "percent": 50
+          }, 
+          {
+            "name": "human", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Aileen": {
@@ -11084,23 +10530,21 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "mp%": 20, 
-          "atk%": 60, 
-          "killers": [
-            {
-              "name": "machine", 
-              "percent": 50
-            }, 
-            {
-              "name": "stone", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 20, 
+        "mp%": 20, 
+        "atk%": 60, 
+        "killers": [
+          {
+            "name": "machine", 
+            "percent": 50
+          }, 
+          {
+            "name": "stone", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Rosa": {
@@ -11136,12 +10580,10 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 20, 
-          "spr%": 30
-        }
-      ]
+      {
+        "mp%": 20, 
+        "spr%": 30
+      }
     ]
   }, 
   "Amelia": {
@@ -11175,23 +10617,19 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 20, 
-          "def%": 20, 
-          "dualWield": "gun"
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "def%": 20, 
-            "equipedConditions": [
-              "gun"
-            ]
-          }
+      {
+        "hp%": 20, 
+        "atk%": 20, 
+        "def%": 20, 
+        "dualWield": "gun"
+      }, 
+      {
+        "atk%": 20, 
+        "def%": 20, 
+        "equipedConditions": [
+          "gun"
         ]
-      ]
+      }
     ]
   }, 
   "Elza": {
@@ -11222,30 +10660,26 @@
       "lightArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 20, 
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 50
-            }, 
-            {
-              "name": "demon", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 20, 
+        "atk%": 20, 
+        "killers": [
           {
-            "atk%": 50, 
-            "equipedConditions": [
-              "spear"
-            ]
+            "name": "human", 
+            "percent": 50
+          }, 
+          {
+            "name": "demon", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "spear"
+        ]
+      }
     ]
   }, 
   "Baurg": {
@@ -11275,11 +10709,9 @@
       "clothes"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10
-        }
-      ]
+      {
+        "hp%": 10
+      }
     ]
   }, 
   "King Giott": {
@@ -11316,17 +10748,15 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 10, 
-          "killers": [
-            {
-              "name": "machine", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "atk%": 10, 
+        "killers": [
+          {
+            "name": "machine", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Primm": {
@@ -11370,13 +10800,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 35, 
-          "mag%": 35, 
-          "spr%": 35
-        }
-      ]
+      {
+        "atk%": 35, 
+        "mag%": 35, 
+        "spr%": 35
+      }
     ]
   }, 
   "Tilith": {
@@ -11406,14 +10834,12 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 20, 
-          "mag%": 10, 
-          "spr%": 20
-        }
-      ]
+      {
+        "hp%": 10, 
+        "mp%": 20, 
+        "mag%": 10, 
+        "spr%": 20
+      }
     ]
   }, 
   "Luneth": {
@@ -11450,21 +10876,17 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 30, 
-          "dualWield": "all"
-        }, 
-        [
-          {
-            "atk%": 20, 
-            "equipedConditions": [
-              "sword"
-            ]
-          }
+      {
+        "hp%": 20, 
+        "atk%": 30, 
+        "dualWield": "all"
+      }, 
+      {
+        "atk%": 20, 
+        "equipedConditions": [
+          "sword"
         ]
-      ]
+      }
     ]
   }, 
   "Hunter Lasswell": {
@@ -11495,34 +10917,32 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "spr%": 30, 
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 25
-            }, 
-            {
-              "name": "bird", 
-              "percent": 25
-            }, 
-            {
-              "name": "aquatic", 
-              "percent": 25
-            }, 
-            {
-              "name": "dragon", 
-              "percent": 25
-            }, 
-            {
-              "name": "bug", 
-              "percent": 25
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 30, 
+        "spr%": 30, 
+        "killers": [
+          {
+            "name": "beast", 
+            "percent": 25
+          }, 
+          {
+            "name": "bird", 
+            "percent": 25
+          }, 
+          {
+            "name": "aquatic", 
+            "percent": 25
+          }, 
+          {
+            "name": "dragon", 
+            "percent": 25
+          }, 
+          {
+            "name": "bug", 
+            "percent": 25
+          }
+        ]
+      }
     ]
   }, 
   "Leo": {
@@ -11561,12 +10981,10 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "atk%": 20, 
-          "def%": 20
-        }
-      ]
+      {
+        "atk%": 20, 
+        "def%": 20
+      }
     ]
   }, 
   "Carrie": {
@@ -11633,12 +11051,10 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "def%": 30
-        }
-      ]
+      {
+        "hp%": 30, 
+        "def%": 30
+      }
     ]
   }, 
   "Garland": {
@@ -11675,32 +11091,28 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "atk%": 20, 
-          "killers": [
-            {
-              "name": "human", 
-              "percent": 50
-            }
-          ]
-        }, 
-        [
+      {
+        "hp%": 20, 
+        "atk%": 20, 
+        "killers": [
           {
-            "atk%": 25, 
-            "equipedConditions": [
-              "greatSword"
-            ]
-          }, 
-          {
-            "atk%": 25, 
-            "equipedConditions": [
-              "helm"
-            ]
+            "name": "human", 
+            "percent": 50
           }
         ]
-      ]
+      }, 
+      {
+        "atk%": 25, 
+        "equipedConditions": [
+          "greatSword"
+        ]
+      }, 
+      {
+        "atk%": 25, 
+        "equipedConditions": [
+          "helm"
+        ]
+      }
     ]
   }, 
   "Soleil": {
@@ -11735,13 +11147,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 10, 
-          "mp%": 35, 
-          "spr%": 20
-        }
-      ]
+      {
+        "hp%": 10, 
+        "mp%": 35, 
+        "spr%": 20
+      }
     ]
   }, 
   "Lenna": {
@@ -11776,11 +11186,9 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "spr%": 20
-        }
-      ]
+      {
+        "spr%": 20
+      }
     ]
   }, 
   "Tidus": {
@@ -11818,27 +11226,25 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 30, 
-          "mp%": 20, 
-          "atk%": 50, 
-          "killers": [
-            {
-              "name": "beast", 
-              "percent": 50
-            }, 
-            {
-              "name": "bird", 
-              "percent": 50
-            }, 
-            {
-              "name": "demon", 
-              "percent": 50
-            }
-          ]
-        }
-      ]
+      {
+        "hp%": 30, 
+        "mp%": 20, 
+        "atk%": 50, 
+        "killers": [
+          {
+            "name": "beast", 
+            "percent": 50
+          }, 
+          {
+            "name": "bird", 
+            "percent": 50
+          }, 
+          {
+            "name": "demon", 
+            "percent": 50
+          }
+        ]
+      }
     ]
   }, 
   "Aiden": {
@@ -11872,13 +11278,11 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "def%": 20, 
-          "spr%": 20
-        }
-      ]
+      {
+        "hp%": 20, 
+        "def%": 20, 
+        "spr%": 20
+      }
     ]
   }, 
   "Victoria": {
@@ -11913,26 +11317,22 @@
       "robe"
     ], 
     "skills": [
-      [
-        {
-          "mp%": 30, 
-          "mag%": 30
-        }, 
-        [
-          {
-            "mag%": 20, 
-            "equipedConditions": [
-              "hat"
-            ]
-          }, 
-          {
-            "mag%": 20, 
-            "equipedConditions": [
-              "robe"
-            ]
-          }
+      {
+        "mp%": 30, 
+        "mag%": 30
+      }, 
+      {
+        "mag%": 20, 
+        "equipedConditions": [
+          "hat"
         ]
-      ]
+      }, 
+      {
+        "mag%": 20, 
+        "equipedConditions": [
+          "robe"
+        ]
+      }
     ]
   }, 
   "Libertus": {
@@ -11968,12 +11368,10 @@
       "heavyArmor"
     ], 
     "skills": [
-      [
-        {
-          "hp%": 20, 
-          "def%": 10
-        }
-      ]
+      {
+        "hp%": 20, 
+        "def%": 10
+      }
     ]
   }
 }
