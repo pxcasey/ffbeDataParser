@@ -357,6 +357,12 @@
       {
         "hp%": 20, 
         "atk%": 50
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "unarmed"
+        ]
       }
     ]
   }, 
@@ -4008,6 +4014,12 @@
       {
         "hp%": 30, 
         "def%": 20
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "unarmed"
+        ]
       }
     ]
   }, 
@@ -4096,6 +4108,12 @@
         "def%": 20, 
         "equipedConditions": [
           "hat"
+        ]
+      }, 
+      {
+        "atk%": 200, 
+        "equipedConditions": [
+          "unarmed"
         ]
       }
     ]
@@ -8047,6 +8065,12 @@
     "skills": [
       {
         "hp%": 20
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "unarmed"
+        ]
       }
     ]
   }, 
@@ -10667,6 +10691,12 @@
     "skills": [
       {
         "hp%": 10
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "unarmed"
+        ]
       }
     ]
   }, 

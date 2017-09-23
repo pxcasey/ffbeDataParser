@@ -217,6 +217,27 @@ def getPassives(skills):
 
                 masteries.append(masteryBonus)
 
+            if (effect[0] is 1 and effect[1] is 3 and effect[2] is 19):
+                unarmedMasteryEffect = effect[3]
+                unarmedBonus = OrderedDict()
+                if unarmedMasteryEffect[0]:
+                    unarmedBonus['atk%'] = unarmedMasteryEffect[0]
+                #all of the following is assummed. only atk is known.
+                if len(unarmedMasteryEffect) > 1:
+                    if unarmedMasteryEffect[1]:
+                        unarmedBonus['def%'] = unarmedMasteryEffect[1]
+                    if unarmedMasteryEffect[2]:
+                        unarmedBonus['mag%'] = unarmedMasteryEffect[2]
+                    if unarmedMasteryEffect[3]:
+                        unarmedBonus['spr%'] = unarmedMasteryEffect[3]
+
+                unarmedBonus['equipedConditions'] = ['unarmed']
+                masteries.append(unarmedBonus)
+                
+                
+                
+
+                
             #element based masteries
             if effect[0] == 1 and effect[1] == 3 and effect[2] == 10004:
                 elementBonus = OrderedDict()
