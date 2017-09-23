@@ -396,7 +396,29 @@
     "skills": [
       {
         "mp%": 20, 
-        "mag%": 30
+        "mag%": 30, 
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 0
+          }, 
+          {
+            "name": "bird", 
+            "percent": 0
+          }, 
+          {
+            "name": "beast", 
+            "percent": 0
+          }, 
+          {
+            "name": "plant", 
+            "percent": 0
+          }, 
+          {
+            "name": "bug", 
+            "percent": 0
+          }
+        ]
       }
     ]
   }, 
@@ -1171,11 +1193,11 @@
             "percent": 50
           }, 
           {
-            "name": "demon", 
+            "name": "human", 
             "percent": 50
           }, 
           {
-            "name": "human", 
+            "name": "demon", 
             "percent": 50
           }
         ]
@@ -1535,11 +1557,11 @@
         "def%": 10, 
         "killers": [
           {
-            "name": "bird", 
+            "name": "demon", 
             "percent": 50
           }, 
           {
-            "name": "demon", 
+            "name": "bird", 
             "percent": 50
           }
         ]
@@ -3568,19 +3590,19 @@
         ], 
         "killers": [
           {
-            "name": "spirit", 
-            "percent": 50
-          }, 
-          {
-            "name": "undead", 
-            "percent": 50
-          }, 
-          {
             "name": "demon", 
             "percent": 50
           }, 
           {
             "name": "machine", 
+            "percent": 50
+          }, 
+          {
+            "name": "spirit", 
+            "percent": 50
+          }, 
+          {
+            "name": "undead", 
             "percent": 50
           }
         ]
@@ -3951,11 +3973,11 @@
             "percent": 25
           }, 
           {
-            "name": "bug", 
+            "name": "dragon", 
             "percent": 25
           }, 
           {
-            "name": "dragon", 
+            "name": "bug", 
             "percent": 25
           }
         ]
@@ -4585,7 +4607,7 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 125
+            "percent": 50
           }
         ]
       }
@@ -4803,11 +4825,11 @@
             "percent": 25
           }, 
           {
-            "name": "bug", 
+            "name": "dragon", 
             "percent": 25
           }, 
           {
-            "name": "dragon", 
+            "name": "bug", 
             "percent": 25
           }
         ]
@@ -4994,11 +5016,11 @@
             "percent": 25
           }, 
           {
-            "name": "bug", 
+            "name": "dragon", 
             "percent": 25
           }, 
           {
-            "name": "dragon", 
+            "name": "bug", 
             "percent": 25
           }
         ]
@@ -5173,11 +5195,11 @@
             "percent": 25
           }, 
           {
-            "name": "bug", 
+            "name": "dragon", 
             "percent": 25
           }, 
           {
-            "name": "dragon", 
+            "name": "bug", 
             "percent": 25
           }
         ]
@@ -5529,11 +5551,11 @@
         "spr%": 10, 
         "killers": [
           {
-            "name": "demon", 
+            "name": "undead", 
             "percent": 50
           }, 
           {
-            "name": "undead", 
+            "name": "demon", 
             "percent": 50
           }
         ]
@@ -6684,28 +6706,28 @@
         "def%": 10, 
         "killers": [
           {
-            "name": "beast", 
-            "percent": 125
-          }, 
-          {
-            "name": "bird", 
-            "percent": 125
-          }, 
-          {
-            "name": "demon", 
-            "percent": 125
-          }, 
-          {
-            "name": "dragon", 
-            "percent": 125
+            "name": "plant", 
+            "percent": 50
           }, 
           {
             "name": "bug", 
-            "percent": 125
+            "percent": 50
           }, 
           {
-            "name": "plant", 
-            "percent": 125
+            "name": "bird", 
+            "percent": 50
+          }, 
+          {
+            "name": "dragon", 
+            "percent": 50
+          }, 
+          {
+            "name": "demon", 
+            "percent": 50
+          }, 
+          {
+            "name": "beast", 
+            "percent": 50
           }
         ]
       }, 
@@ -7668,11 +7690,11 @@
             "percent": 25
           }, 
           {
-            "name": "bug", 
+            "name": "dragon", 
             "percent": 25
           }, 
           {
-            "name": "dragon", 
+            "name": "bug", 
             "percent": 25
           }
         ]
@@ -7762,19 +7784,35 @@
         "killers": [
           {
             "name": "spirit", 
-            "percent": 125
+            "percent": 50
           }, 
           {
             "name": "beast", 
-            "percent": 125
+            "percent": 50
           }, 
           {
             "name": "undead", 
-            "percent": 125
+            "percent": 50
+          }, 
+          {
+            "name": "beast", 
+            "percent": 75
           }, 
           {
             "name": "dragon", 
-            "percent": 125
+            "percent": 75
+          }, 
+          {
+            "name": "undead", 
+            "percent": 75
+          }, 
+          {
+            "name": "spirit", 
+            "percent": 75
+          }, 
+          {
+            "name": "dragon", 
+            "percent": 50
           }
         ]
       }, 
@@ -9021,11 +9059,11 @@
         "def%": 10, 
         "killers": [
           {
-            "name": "beast", 
+            "name": "demon", 
             "percent": 50
           }, 
           {
-            "name": "demon", 
+            "name": "beast", 
             "percent": 50
           }
         ]
@@ -9389,7 +9427,13 @@
     "skills": [
       {
         "mp%": 20, 
-        "mag%": 40
+        "mag%": 40, 
+        "killers": [
+          {
+            "name": "human", 
+            "percent": 0
+          }
+        ]
       }
     ]
   }, 
@@ -9956,11 +10000,11 @@
             "percent": 25
           }, 
           {
-            "name": "bug", 
+            "name": "dragon", 
             "percent": 25
           }, 
           {
-            "name": "dragon", 
+            "name": "bug", 
             "percent": 25
           }
         ]
@@ -10377,11 +10421,11 @@
         "hp%": 40, 
         "killers": [
           {
-            "name": "human", 
+            "name": "machine", 
             "percent": 50
           }, 
           {
-            "name": "machine", 
+            "name": "human", 
             "percent": 50
           }
         ]
@@ -10492,11 +10536,11 @@
         "atk%": 60, 
         "killers": [
           {
-            "name": "stone", 
+            "name": "machine", 
             "percent": 50
           }, 
           {
-            "name": "machine", 
+            "name": "stone", 
             "percent": 50
           }
         ]
@@ -10621,11 +10665,11 @@
         "atk%": 20, 
         "killers": [
           {
-            "name": "demon", 
+            "name": "human", 
             "percent": 50
           }, 
           {
-            "name": "human", 
+            "name": "demon", 
             "percent": 50
           }
         ]
@@ -10890,11 +10934,11 @@
             "percent": 25
           }, 
           {
-            "name": "bug", 
+            "name": "dragon", 
             "percent": 25
           }, 
           {
-            "name": "dragon", 
+            "name": "bug", 
             "percent": 25
           }
         ]

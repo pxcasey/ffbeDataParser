@@ -9,6 +9,10 @@ class UnitBonus:
     Mag = 0
     Spr = 0
 
+class KillerBonus:
+    Phys = 0
+    Mag = 0
+    
 itemTypeString = {
     1: 'dagger',
     2: 'sword',
@@ -141,6 +145,7 @@ def getPassives(skills):
     typesString = []
     killersString = []
     masteries = []
+    killerDict = {}
 
     for item in skills:
         skillId = str(item['id'])
@@ -167,17 +172,23 @@ def getPassives(skills):
                         typesString.append(itemTypeString[dwType])
 
             #killers
-            if (effect[1] is 3 and effect[2] is 11) and (effect[0] is 0 or 1):
+            if ((effect[1] is 3 and effect[2] is 11) and (effect[0] is 0 or 1) or
+                (effect[0] is 1 and effect[1] is 1 and effect[2] is 11)):
                 killerEffect = effect[3]
+                #remove this if block when implementing magic damage killer
+                if not killerEffect[1]:
+                    continue
                 killerType = killerEffect[0]
-                killerName = killerString[killerType]
-                killerAmt = killerEffect[1]
-                #magicKillerAmt = effect[2]
+                if killerType in killerDict:
+                    killerData = killerDict[killerType]
+                else:
+                    killerData = KillerBonus()
+
+                killerData.Phys += killerEffect[1]
+                #killerData.Mag += killerEffect[2]
                 #maybe have dict with 'name', 'phys', 'magic' as keys instead of 'name' and 'percent'
-                killerData = OrderedDict()
-                killerData['name'] = killerName
-                killerData['percent'] = killerAmt
-                killersString.append(killerData)                
+                killerDict[killerType] = killerData
+
 
             #masteries
             if (effect[1] is 3 and effect[2] is 6) and (effect[0] is 0 or 1):
@@ -245,7 +256,15 @@ def getPassives(skills):
             passiveStat['dualWield'] = typesString[0]
         else:
             passiveStat['dualWield'] = typesString
-    if killersString:
+    if killerDict:
+        killersString = []
+        for key in killerDict:
+            killerName = killerString[key]
+            killerPhys = killerDict[key].Phys
+            killerObj = OrderedDict()
+            killerObj['name'] = killerName
+            killerObj['percent'] = killerPhys
+            killersString.append(killerObj)
         passiveStat['killers'] = killersString
 
     returnSkills = []
