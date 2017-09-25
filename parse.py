@@ -96,8 +96,8 @@ def parseData():
     try:
         with open('output.json', 'w') as outFile:
            json.dump(jsonOutput, outFile, indent=2, ensure_ascii=False)
-    except UnicodeError:
-        print 'error'
+    except UnicodeError as e:
+        print 'UnicodeError: ', e
 
 
 def getEquips(equips):
@@ -146,6 +146,7 @@ def getPassives(unitId, skills):
     unitBonus = UnitBonus()
     typesString = []
     masteries = []
+    specials = []
     killerDict = {}
     enhanceDict = {}
 
@@ -153,8 +154,7 @@ def getPassives(unitId, skills):
         for enhancementId in enhanceData[unitId]:
             oldId = enhanceData[unitId][enhancementId]['skill_id_old']
             newId = enhanceData[unitId][enhancementId]['skill_id_new']
-            enhanceDict[oldId] = newId
-        pass
+            enhanceDict[oldId] = newId        
 
     for item in skills:
         skillIdNum = item['id']
@@ -176,10 +176,10 @@ def getPassives(unitId, skills):
             #dw 
             if (effect[1] == 3 and effect[2] == 14) and (effect[0] == 0 or effect[0] == 1):                
                 DWTypes = effect[3]
-                for dwType in DWTypes:
-                    if dwType not in itemTypeString:
-                        typesString.append('all')
-                    else:
+                if len(DWTypes) == 1 and DWTypes[0] == 'none':
+                    specials.append('dualWield')
+                else:
+                    for dwType in DWTypes:                    
                         typesString.append(itemTypeString[dwType])
 
             #killers
@@ -279,11 +279,10 @@ def getPassives(unitId, skills):
         passiveStat['mag%'] = unitBonus.Mag
     if unitBonus.Spr:
         passiveStat['spr%'] = unitBonus.Spr
+    if specials:
+        passiveStat['special'] = specials
     if typesString:
-        if len(typesString) == 1:
-            passiveStat['dualWield'] = typesString[0]
-        else:
-            passiveStat['dualWield'] = typesString
+        passiveStat['partialDualWield'] = typesString
     if killerDict:
         killers = []
         for key in killerDict:

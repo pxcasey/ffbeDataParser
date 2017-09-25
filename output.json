@@ -114,7 +114,7 @@
         "atk%": 20, 
         "def%": 10, 
         "spr%": 10, 
-        "dualWield": [
+        "partialDualWield": [
           "dagger", 
           "whip", 
           "throwing", 
@@ -1114,7 +1114,9 @@
         "mp%": 30, 
         "mag%": 20, 
         "spr%": 30, 
-        "dualWield": "dagger"
+        "partialDualWield": [
+          "dagger"
+        ]
       }, 
       {
         "mag%": 50, 
@@ -1456,7 +1458,9 @@
         "hp%": 30, 
         "mp%": 30, 
         "atk%": 30, 
-        "dualWield": "all", 
+        "special": [
+          "dualWield"
+        ], 
         "killers": [
           {
             "name": "undead", 
@@ -1649,7 +1653,9 @@
     ], 
     "skills": [
       {
-        "dualWield": "all", 
+        "special": [
+          "dualWield"
+        ], 
         "killers": [
           {
             "name": "machine", 
@@ -3586,7 +3592,7 @@
         "mp%": 20, 
         "mag%": 30, 
         "spr%": 10, 
-        "dualWield": [
+        "partialDualWield": [
           "throwing", 
           "gun"
         ], 
@@ -5196,7 +5202,9 @@
       {
         "mp%": 20, 
         "atk%": 30, 
-        "dualWield": "all", 
+        "special": [
+          "dualWield"
+        ], 
         "killers": [
           {
             "name": "beast", 
@@ -6596,7 +6604,9 @@
         "hp%": 20, 
         "atk%": 20, 
         "mag%": 20, 
-        "dualWield": "all"
+        "special": [
+          "dualWield"
+        ]
       }, 
       {
         "atk%": 50, 
@@ -7108,7 +7118,9 @@
         "atk%": 30, 
         "def%": 30, 
         "spr%": 30, 
-        "dualWield": "all"
+        "special": [
+          "dualWield"
+        ]
       }, 
       {
         "atk%": 50, 
@@ -7207,7 +7219,9 @@
       {
         "hp%": 40, 
         "atk%": 80, 
-        "dualWield": "all", 
+        "special": [
+          "dualWield"
+        ], 
         "killers": [
           {
             "name": "machine", 
@@ -8540,7 +8554,9 @@
         "hp%": 20, 
         "atk%": 70, 
         "def%": 20, 
-        "dualWield": "gun"
+        "partialDualWield": [
+          "gun"
+        ]
       }
     ]
   }, 
@@ -8586,7 +8602,9 @@
         "hp%": 20, 
         "atk%": 30, 
         "def%": 20, 
-        "dualWield": "fist"
+        "partialDualWield": [
+          "fist"
+        ]
       }
     ]
   }, 
@@ -9403,7 +9421,9 @@
     "skills": [
       {
         "hp%": 20, 
-        "dualWield": "gun"
+        "partialDualWield": [
+          "gun"
+        ]
       }, 
       {
         "atk%": 30, 
@@ -9618,7 +9638,9 @@
       {
         "hp%": 20, 
         "atk%": 30, 
-        "dualWield": "all"
+        "special": [
+          "dualWield"
+        ]
       }
     ]
   }, 
@@ -10634,7 +10656,9 @@
         "hp%": 20, 
         "atk%": 20, 
         "def%": 20, 
-        "dualWield": "gun"
+        "partialDualWield": [
+          "gun"
+        ]
       }, 
       {
         "atk%": 20, 
@@ -10898,7 +10922,9 @@
       {
         "hp%": 20, 
         "atk%": 30, 
-        "dualWield": "all"
+        "special": [
+          "dualWield"
+        ]
       }, 
       {
         "atk%": 50, 
