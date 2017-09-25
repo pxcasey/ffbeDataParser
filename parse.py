@@ -74,13 +74,15 @@ with open('units.json') as unitsFile:
 with open('skills.json') as skillsFile:            
     skillsData = json.load(skillsFile)
 
+with open('enhancements.json') as enhanceFile:            
+    enhanceData = json.load(enhanceFile)
 
 def parseData():
     jsonOutput = OrderedDict()
 
     for unitId in unitsData:
         unit = unitsData[unitId]
-        if 'skills' in unit:
+        if 'skills' in unit:            
             unitJson = OrderedDict()
             unitName = unit['name'].encode('utf-8')
             unitOutput = OrderedDict()                    
@@ -88,7 +90,7 @@ def parseData():
             unitOutput['stats'] = getStats(unit)
             unitOutput['sex'] = unit['sex']
             unitOutput['equip'] = getEquips(unit['equip'])
-            unitOutput['skills'] = getPassives(unit['skills'])
+            unitOutput['skills'] = getPassives(unitId, unit['skills'])
             jsonOutput[unitName] = unitOutput
                     
     try:
@@ -140,20 +142,29 @@ def getStats(unit):
 
     return unitStats    
 
-def getPassives(skills):
+def getPassives(unitId, skills):
     unitBonus = UnitBonus()
     typesString = []
-    killersString = []
     masteries = []
     killerDict = {}
+    enhanceDict = {}
+
+    if unitId in enhanceData:
+        for enhancementId in enhanceData[unitId]:
+            oldId = enhanceData[unitId][enhancementId]['skill_id_old']
+            newId = enhanceData[unitId][enhancementId]['skill_id_new']
+            enhanceDict[oldId] = newId
+        pass
 
     for item in skills:
-        skillId = str(item['id'])
-        if skillId == '910274':
-            pass
+        skillIdNum = item['id']
+        while skillIdNum in enhanceDict:
+            skillIdNum = enhanceDict[skillIdNum]
+
+        skillId = str(skillIdNum)
         skillData = skillsData[skillId]
         for effect in skillData['effects_raw']:
-            if (effect[1] is 3 and effect[2] is 1) and (effect[0] is 0 or 1):                
+            if (effect[1] == 3 and effect[2] == 1) and (effect[0] == 0 or effect[0] == 1):                
                 effectData = effect[3]            
                 unitBonus.Hp += effectData[4]
                 unitBonus.Mp += effectData[5]
@@ -163,7 +174,7 @@ def getPassives(skills):
                 unitBonus.Spr += effectData[3]
 
             #dw 
-            if (effect[1] is 3 and effect[2] is 14) and (effect[0] is 0 or 1):                
+            if (effect[1] == 3 and effect[2] == 14) and (effect[0] == 0 or effect[0] == 1):                
                 DWTypes = effect[3]
                 for dwType in DWTypes:
                     if dwType not in itemTypeString:
@@ -172,8 +183,8 @@ def getPassives(skills):
                         typesString.append(itemTypeString[dwType])
 
             #killers
-            if ((effect[1] is 3 and effect[2] is 11) and (effect[0] is 0 or 1) or
-                (effect[0] is 1 and effect[1] is 1 and effect[2] is 11)):
+            if ((effect[1] == 3 and effect[2] == 11) and (effect[0] == 0 or effect[0] == 1) or
+                (effect[0] == 1 and effect[1] == 1 and effect[2] == 11)):
                 killerEffect = effect[3]
                 #remove this if block when implementing magic damage killer
                 if not killerEffect[1]:
@@ -189,9 +200,8 @@ def getPassives(skills):
                 #maybe have dict with 'name', 'phys', 'magic' as keys instead of 'name' and 'percent'
                 killerDict[killerType] = killerData
 
-
             #masteries
-            if (effect[1] is 3 and effect[2] is 6) and (effect[0] is 0 or 1):
+            if (effect[1] == 3 and effect[2] == 6) and (effect[0] == 0 or effect[0] == 1):
                 masteryEffect = effect[3]
                 masteryType = masteryEffect[0]                
                 if not masteryType:
@@ -217,7 +227,8 @@ def getPassives(skills):
 
                 masteries.append(masteryBonus)
 
-            if (effect[0] is 1 and effect[1] is 3 and effect[2] is 19):
+            #unarmed
+            if (effect[0] == 1 and effect[1] == 3 and effect[2] == 19):
                 unarmedMasteryEffect = effect[3]
                 unarmedBonus = OrderedDict()
                 if unarmedMasteryEffect[0]:
@@ -233,10 +244,6 @@ def getPassives(skills):
 
                 unarmedBonus['equipedConditions'] = ['unarmed']
                 masteries.append(unarmedBonus)
-                
-                
-                
-
                 
             #element based masteries
             if effect[0] == 1 and effect[1] == 3 and effect[2] == 10004:
@@ -278,15 +285,15 @@ def getPassives(skills):
         else:
             passiveStat['dualWield'] = typesString
     if killerDict:
-        killersString = []
+        killers = []
         for key in killerDict:
             killerName = killerString[key]
             killerPhys = killerDict[key].Phys
             killerObj = OrderedDict()
             killerObj['name'] = killerName
             killerObj['percent'] = killerPhys
-            killersString.append(killerObj)
-        passiveStat['killers'] = killersString
+            killers.append(killerObj)
+        passiveStat['killers'] = killers
 
     returnSkills = []
     if passiveStat:
@@ -295,7 +302,6 @@ def getPassives(skills):
         returnSkills.extend(masteries)
     return returnSkills
 
-def getMastery(skills):
-    pass
 
-parseData()
+if __name__ == '__main__':
+    parseData()

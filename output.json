@@ -31,7 +31,7 @@
     "skills": [
       {
         "mp%": 10, 
-        "mag%": 30, 
+        "mag%": 70, 
         "spr%": 20
       }
     ]
@@ -642,21 +642,33 @@
         "def%": 20
       }, 
       {
-        "atk%": 40, 
+        "atk%": 50, 
         "equipedConditions": [
           "katana"
         ]
       }, 
       {
-        "atk%": 30, 
+        "atk%": 50, 
         "equipedConditions": [
           "sword"
         ]
       }, 
       {
-        "atk%": 20, 
+        "atk%": 50, 
         "equipedConditions": [
           "greatSword"
+        ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "dagger"
+        ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "spear"
         ]
       }
     ]
@@ -833,7 +845,7 @@
         "atk%": 30
       }, 
       {
-        "atk%": 20, 
+        "atk%": 40, 
         "def%": 10, 
         "mag%": 20, 
         "spr%": 10, 
@@ -930,6 +942,12 @@
         "spr%": 30, 
         "equipedConditions": [
           "lightShield"
+        ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "greatSword"
         ]
       }
     ]
@@ -3834,7 +3852,7 @@
     "skills": [
       {
         "hp%": 20, 
-        "atk%": 50, 
+        "atk%": 70, 
         "def%": 20
       }
     ]
@@ -4245,6 +4263,7 @@
         "hp%": 20, 
         "atk%": 20, 
         "def%": 50, 
+        "spr%": 20, 
         "killers": [
           {
             "name": "demon", 
@@ -4603,7 +4622,7 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 125
+            "percent": 175
           }
         ]
       }
@@ -4768,7 +4787,8 @@
     ], 
     "skills": [
       {
-        "mp%": 20, 
+        "hp%": 15, 
+        "mp%": 35, 
         "mag%": 50
       }
     ]
@@ -5062,11 +5082,11 @@
     "skills": [
       {
         "hp%": 20, 
-        "atk%": 50, 
+        "atk%": 70, 
         "killers": [
           {
             "name": "human", 
-            "percent": 50
+            "percent": 75
           }
         ]
       }
@@ -5459,7 +5479,7 @@
         ]
       }, 
       {
-        "atk%": 50, 
+        "atk%": 100, 
         "equipedConditions": [
           "axe"
         ]
@@ -6231,7 +6251,8 @@
         "mp%": 20
       }, 
       {
-        "mag%": 30, 
+        "mag%": 50, 
+        "spr%": 50, 
         "equipedConditions": [
           "staff"
         ]
@@ -6703,7 +6724,7 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 125
+            "percent": 150
           }, 
           {
             "name": "bird", 
@@ -6711,11 +6732,15 @@
           }, 
           {
             "name": "demon", 
-            "percent": 125
+            "percent": 150
+          }, 
+          {
+            "name": "human", 
+            "percent": 100
           }, 
           {
             "name": "dragon", 
-            "percent": 125
+            "percent": 150
           }, 
           {
             "name": "bug", 
@@ -6724,6 +6749,10 @@
           {
             "name": "plant", 
             "percent": 125
+          }, 
+          {
+            "name": "undead", 
+            "percent": 100
           }
         ]
       }, 
@@ -6953,7 +6982,7 @@
       {
         "mp%": 20, 
         "def%": 20, 
-        "mag%": 20
+        "mag%": 60
       }
     ]
   }, 
@@ -7461,7 +7490,7 @@
         "spr%": 30
       }, 
       {
-        "spr%": 20, 
+        "spr%": 50, 
         "equipedConditions": [
           "bow"
         ]
@@ -7775,7 +7804,7 @@
     "skills": [
       {
         "hp%": 20, 
-        "atk%": 30, 
+        "atk%": 60, 
         "def%": 20, 
         "killers": [
           {
@@ -7797,9 +7826,9 @@
         ]
       }, 
       {
-        "atk%": 35, 
-        "def%": 20, 
-        "spr%": 20, 
+        "atk%": 70, 
+        "def%": 35, 
+        "spr%": 35, 
         "equipedConditions": [
           "sword"
         ]
@@ -8145,6 +8174,7 @@
     ], 
     "skills": [
       {
+        "hp%": 30, 
         "mp%": 20, 
         "spr%": 30
       }
@@ -9005,7 +9035,9 @@
     ], 
     "skills": [
       {
-        "hp%": 60
+        "hp%": 60, 
+        "atk%": 30, 
+        "def%": 30
       }
     ]
   }, 
@@ -9370,10 +9402,11 @@
     ], 
     "skills": [
       {
-        "hp%": 20
+        "hp%": 20, 
+        "dualWield": "gun"
       }, 
       {
-        "atk%": 20, 
+        "atk%": 30, 
         "equipedConditions": [
           "gun"
         ]
@@ -9413,7 +9446,7 @@
     "skills": [
       {
         "mp%": 20, 
-        "mag%": 40
+        "mag%": 60
       }
     ]
   }, 
@@ -10655,7 +10688,7 @@
         ]
       }, 
       {
-        "atk%": 50, 
+        "atk%": 100, 
         "equipedConditions": [
           "spear"
         ]
@@ -10787,9 +10820,9 @@
     ], 
     "skills": [
       {
-        "atk%": 35, 
-        "mag%": 35, 
-        "spr%": 35
+        "atk%": 100, 
+        "mag%": 100, 
+        "spr%": 100
       }
     ]
   }, 
@@ -10868,9 +10901,27 @@
         "dualWield": "all"
       }, 
       {
-        "atk%": 20, 
+        "atk%": 50, 
         "equipedConditions": [
           "sword"
+        ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "dagger"
+        ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "greatSword"
+        ]
+      }, 
+      {
+        "atk%": 50, 
+        "equipedConditions": [
+          "katana"
         ]
       }
     ]
@@ -11266,8 +11317,8 @@
     "skills": [
       {
         "hp%": 20, 
-        "def%": 20, 
-        "spr%": 20
+        "def%": 40, 
+        "spr%": 40
       }
     ]
   }, 
