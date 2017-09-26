@@ -5742,8 +5742,8 @@
           "magical": 20
         }, 
         "singleWield": {
-          "atk%": 100, 
-          "mag%": 50
+          "atk": 100, 
+          "mag": 50
         }
       }, 
       {
@@ -7949,9 +7949,9 @@
           "physical": 15
         }, 
         "singleWield": {
-          "atk%": 100, 
-          "def%": 50, 
-          "spr%": 50
+          "atk": 100, 
+          "def": 50, 
+          "spr": 50
         }
       }, 
       {
