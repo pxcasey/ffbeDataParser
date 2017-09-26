@@ -119,7 +119,10 @@
           "whip", 
           "throwing", 
           "gun"
-        ]
+        ], 
+        "evade": {
+          "physical": 20
+        }
       }
     ]
   }, 
@@ -402,7 +405,29 @@
     "skills": [
       {
         "mp%": 20, 
-        "mag%": 30
+        "mag%": 30, 
+        "killers": [
+          {
+            "name": "beast", 
+            "magical": 50
+          }, 
+          {
+            "name": "bird", 
+            "magical": 50
+          }, 
+          {
+            "name": "plant", 
+            "magical": 50
+          }, 
+          {
+            "name": "human", 
+            "magical": 50
+          }, 
+          {
+            "name": "bug", 
+            "magical": 50
+          }
+        ]
       }
     ]
   }, 
@@ -710,7 +735,7 @@
         "killers": [
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }, 
@@ -760,7 +785,7 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -888,9 +913,13 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 75
+            "physical": 75, 
+            "magical": 75
           }
-        ]
+        ], 
+        "evade": {
+          "physical": 40
+        }
       }
     ]
   }, 
@@ -1194,15 +1223,15 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "human", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -1249,7 +1278,7 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -1464,7 +1493,7 @@
         "killers": [
           {
             "name": "undead", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }, 
@@ -1564,11 +1593,11 @@
         "killers": [
           {
             "name": "bird", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -1659,9 +1688,13 @@
         "killers": [
           {
             "name": "machine", 
-            "percent": 100
+            "physical": 100
           }
-        ]
+        ], 
+        "evade": {
+          "physical": 20, 
+          "magical": 10
+        }
       }, 
       {
         "atk%": 30, 
@@ -1734,7 +1767,7 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }, 
@@ -1782,7 +1815,10 @@
       {
         "mp%": 30, 
         "mag%": 60, 
-        "spr%": 50
+        "spr%": 50, 
+        "evade": {
+          "physical": 30
+        }
       }
     ]
   }, 
@@ -1823,7 +1859,7 @@
         "killers": [
           {
             "name": "bird", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -1869,7 +1905,7 @@
         "killers": [
           {
             "name": "machine", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -1910,7 +1946,7 @@
         "killers": [
           {
             "name": "stone", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -2109,11 +2145,11 @@
         "killers": [
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "dragon", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }, 
@@ -2468,7 +2504,10 @@
     "skills": [
       {
         "hp%": 20, 
-        "atk%": 10
+        "atk%": 10, 
+        "evade": {
+          "physical": 20
+        }
       }
     ]
   }, 
@@ -2621,7 +2660,7 @@
         "killers": [
           {
             "name": "dragon", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }, 
@@ -2914,7 +2953,10 @@
       {
         "hp%": 20, 
         "atk%": 20, 
-        "def%": 10
+        "def%": 10, 
+        "evade": {
+          "physical": 10
+        }
       }
     ]
   }, 
@@ -3183,7 +3225,7 @@
         "killers": [
           {
             "name": "machine", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -3353,7 +3395,8 @@
         "killers": [
           {
             "name": "dragon", 
-            "percent": 25
+            "physical": 25, 
+            "magical": 50
           }
         ]
       }, 
@@ -3443,7 +3486,10 @@
       {
         "hp%": 20, 
         "mp%": 10, 
-        "atk%": 20
+        "atk%": 20, 
+        "evade": {
+          "physical": 20
+        }
       }
     ]
   }, 
@@ -3599,19 +3645,23 @@
         "killers": [
           {
             "name": "spirit", 
-            "percent": 50
+            "physical": 50, 
+            "magical": 50
           }, 
           {
             "name": "undead", 
-            "percent": 50
+            "physical": 50, 
+            "magical": 50
           }, 
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50, 
+            "magical": 50
           }, 
           {
             "name": "machine", 
-            "percent": 50
+            "physical": 50, 
+            "magical": 50
           }
         ]
       }, 
@@ -3745,7 +3795,7 @@
         "killers": [
           {
             "name": "undead", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -3893,7 +3943,13 @@
       "clothes", 
       "lightArmor"
     ], 
-    "skills": []
+    "skills": [
+      {
+        "evade": {
+          "physical": 10
+        }
+      }
+    ]
   }, 
   "Bran": {
     "max_rarity": 6, 
@@ -3970,25 +4026,26 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bird", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "aquatic", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bug", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "dragon", 
-            "percent": 25
+            "physical": 25
           }
-        ]
+        ], 
+        "doubleHand": 75
       }, 
       {
         "def%": 60, 
@@ -4083,7 +4140,10 @@
         "mp%": 10, 
         "atk%": 20, 
         "def%": 20, 
-        "spr%": 20
+        "spr%": 20, 
+        "evade": {
+          "physical": 10
+        }
       }
     ]
   }, 
@@ -4178,7 +4238,7 @@
         "killers": [
           {
             "name": "plant", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -4273,7 +4333,7 @@
         "killers": [
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -4521,7 +4581,10 @@
     "skills": [
       {
         "hp%": 20, 
-        "mp%": 20
+        "mp%": 20, 
+        "evade": {
+          "physical": 20
+        }
       }, 
       {
         "atk%": 20, 
@@ -4581,7 +4644,10 @@
       {
         "mp%": 20, 
         "atk%": 20, 
-        "spr%": 20
+        "spr%": 20, 
+        "evade": {
+          "physical": 10
+        }
       }, 
       {
         "atk%": 50, 
@@ -4628,7 +4694,8 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 175
+            "physical": 175, 
+            "magical": 125
           }
         ]
       }
@@ -4671,7 +4738,7 @@
         "killers": [
           {
             "name": "machine", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -4836,23 +4903,23 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bird", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "aquatic", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bug", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "dragon", 
-            "percent": 25
+            "physical": 25
           }
         ]
       }
@@ -5027,25 +5094,28 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bird", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "aquatic", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bug", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "dragon", 
-            "percent": 25
+            "physical": 25
           }
-        ]
+        ], 
+        "evade": {
+          "physical": 30
+        }
       }, 
       {
         "spr%": 60, 
@@ -5092,7 +5162,7 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 75
+            "physical": 75
           }
         ]
       }
@@ -5208,23 +5278,23 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bird", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "aquatic", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bug", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "dragon", 
-            "percent": 25
+            "physical": 25
           }
         ]
       }
@@ -5265,7 +5335,13 @@
       "clothes", 
       "lightArmor"
     ], 
-    "skills": []
+    "skills": [
+      {
+        "evade": {
+          "physical": 20
+        }
+      }
+    ]
   }, 
   "Shadow": {
     "max_rarity": 4, 
@@ -5302,7 +5378,7 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -5342,7 +5418,11 @@
     "skills": [
       {
         "hp%": 30, 
-        "def%": 20
+        "def%": 20, 
+        "evade": {
+          "physical": 20, 
+          "magical": 20
+        }
       }, 
       {
         "spr%": 30, 
@@ -5482,7 +5562,7 @@
         "killers": [
           {
             "name": "aquatic", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }, 
@@ -5576,11 +5656,11 @@
         "killers": [
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "undead", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -5656,7 +5736,15 @@
     "skills": [
       {
         "mp%": 30, 
-        "mag%": 30
+        "mag%": 30, 
+        "evade": {
+          "physical": 20, 
+          "magical": 20
+        }, 
+        "singleWield": {
+          "atk%": 100, 
+          "mag%": 50
+        }
       }, 
       {
         "atk%": 30, 
@@ -6313,9 +6401,12 @@
         "killers": [
           {
             "name": "bird", 
-            "percent": 50
+            "physical": 50
           }
-        ]
+        ], 
+        "evade": {
+          "physical": 15
+        }
       }
     ]
   }, 
@@ -6392,7 +6483,7 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -6606,7 +6697,10 @@
         "mag%": 20, 
         "special": [
           "dualWield"
-        ]
+        ], 
+        "evade": {
+          "physical": 30
+        }
       }, 
       {
         "atk%": 50, 
@@ -6734,35 +6828,35 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 150
+            "physical": 150
           }, 
           {
             "name": "bird", 
-            "percent": 125
+            "physical": 125
           }, 
           {
             "name": "demon", 
-            "percent": 150
+            "physical": 150
           }, 
           {
             "name": "human", 
-            "percent": 100
+            "physical": 100
           }, 
           {
             "name": "dragon", 
-            "percent": 150
+            "physical": 150
           }, 
           {
             "name": "bug", 
-            "percent": 125
+            "physical": 125
           }, 
           {
             "name": "plant", 
-            "percent": 125
+            "physical": 125
           }, 
           {
             "name": "undead", 
-            "percent": 100
+            "physical": 100
           }
         ]
       }, 
@@ -6908,7 +7002,10 @@
     ], 
     "skills": [
       {
-        "atk%": 20
+        "atk%": 20, 
+        "evade": {
+          "physical": 40
+        }
       }, 
       {
         "atk%": 25, 
@@ -7073,7 +7170,7 @@
         "killers": [
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -7225,9 +7322,13 @@
         "killers": [
           {
             "name": "machine", 
-            "percent": 100
+            "physical": 100
           }
-        ]
+        ], 
+        "evade": {
+          "physical": 20, 
+          "magical": 10
+        }
       }
     ]
   }, 
@@ -7333,7 +7434,7 @@
         "killers": [
           {
             "name": "dragon", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -7413,11 +7514,11 @@
         "killers": [
           {
             "name": "undead", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "machine", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -7459,7 +7560,11 @@
       {
         "hp%": 20, 
         "atk%": 30, 
-        "def%": 20
+        "def%": 20, 
+        "evade": {
+          "physical": 15, 
+          "magical": 15
+        }
       }, 
       {
         "atk%": 50, 
@@ -7550,7 +7655,8 @@
     "skills": [
       {
         "hp%": 20, 
-        "atk%": 30
+        "atk%": 30, 
+        "doubleHand": 50
       }, 
       {
         "atk%": 20, 
@@ -7632,7 +7738,7 @@
         "killers": [
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }, 
@@ -7718,25 +7824,26 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bird", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "aquatic", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bug", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "dragon", 
-            "percent": 25
+            "physical": 25
           }
-        ]
+        ], 
+        "doubleHand": 50
       }
     ]
   }, 
@@ -7823,21 +7930,29 @@
         "killers": [
           {
             "name": "spirit", 
-            "percent": 125
+            "physical": 125
           }, 
           {
             "name": "beast", 
-            "percent": 125
+            "physical": 125
           }, 
           {
             "name": "undead", 
-            "percent": 125
+            "physical": 125
           }, 
           {
             "name": "dragon", 
-            "percent": 125
+            "physical": 125
           }
-        ]
+        ], 
+        "evade": {
+          "physical": 15
+        }, 
+        "singleWield": {
+          "atk%": 100, 
+          "def%": 50, 
+          "spr%": 50
+        }
       }, 
       {
         "atk%": 70, 
@@ -7920,7 +8035,10 @@
     "skills": [
       {
         "hp%": 15, 
-        "mp%": 15
+        "mp%": 15, 
+        "evade": {
+          "physical": 20
+        }
       }, 
       {
         "atk%": 20, 
@@ -8061,7 +8179,7 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }, 
@@ -8230,7 +8348,10 @@
         "hp%": 40, 
         "mp%": 10, 
         "atk%": 30, 
-        "def%": 20
+        "def%": 20, 
+        "evade": {
+          "physical": 30
+        }
       }, 
       {
         "atk%": 50, 
@@ -8309,11 +8430,11 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "bird", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -8420,7 +8541,10 @@
     ], 
     "skills": [
       {
-        "atk%": 10
+        "atk%": 10, 
+        "evade": {
+          "physical": 10
+        }
       }
     ]
   }, 
@@ -8511,7 +8635,10 @@
         "mp%": 10, 
         "atk%": 20, 
         "def%": 20, 
-        "spr%": 10
+        "spr%": 10, 
+        "evade": {
+          "physical": 20
+        }
       }, 
       {
         "atk%": 50, 
@@ -8647,7 +8774,7 @@
         "killers": [
           {
             "name": "dragon", 
-            "percent": 100
+            "physical": 100
           }
         ]
       }, 
@@ -8808,7 +8935,10 @@
     "skills": [
       {
         "hp%": 20, 
-        "atk%": 30
+        "atk%": 30, 
+        "evade": {
+          "physical": 20
+        }
       }
     ]
   }, 
@@ -9096,11 +9226,11 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -9140,7 +9270,8 @@
     ], 
     "skills": [
       {
-        "hp%": 10
+        "hp%": 10, 
+        "doubleHand": 50
       }
     ]
   }, 
@@ -9204,7 +9335,11 @@
     "skills": [
       {
         "atk%": 30, 
-        "def%": 20
+        "def%": 20, 
+        "evade": {
+          "physical": 20, 
+          "magical": 10
+        }
       }
     ]
   }, 
@@ -9302,7 +9437,7 @@
         "killers": [
           {
             "name": "machine", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -9384,9 +9519,12 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 50
+            "physical": 50
           }
-        ]
+        ], 
+        "evade": {
+          "physical": 20
+        }
       }
     ]
   }, 
@@ -9466,7 +9604,16 @@
     "skills": [
       {
         "mp%": 20, 
-        "mag%": 60
+        "mag%": 60, 
+        "killers": [
+          {
+            "name": "human", 
+            "magical": 50
+          }
+        ], 
+        "evade": {
+          "physical": 20
+        }
       }
     ]
   }, 
@@ -9507,7 +9654,10 @@
       {
         "hp%": 50, 
         "atk%": 30, 
-        "spr%": 20
+        "spr%": 20, 
+        "evade": {
+          "physical": 20
+        }
       }, 
       {
         "atk%": 30, 
@@ -9640,7 +9790,11 @@
         "atk%": 30, 
         "special": [
           "dualWield"
-        ]
+        ], 
+        "evade": {
+          "physical": 30, 
+          "magical": 20
+        }
       }
     ]
   }, 
@@ -9856,7 +10010,8 @@
         "atk%": 10, 
         "def%": 10, 
         "mag%": 10, 
-        "spr%": 10
+        "spr%": 10, 
+        "doubleHand": 50
       }
     ]
   }, 
@@ -9896,9 +10051,10 @@
         "killers": [
           {
             "name": "machine", 
-            "percent": 50
+            "physical": 50
           }
-        ]
+        ], 
+        "doubleHand": 75
       }, 
       {
         "atk%": 50, 
@@ -9984,7 +10140,7 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -10024,25 +10180,26 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bird", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "aquatic", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bug", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "dragon", 
-            "percent": 25
+            "physical": 25
           }
-        ]
+        ], 
+        "doubleHand": 50
       }, 
       {
         "def%": 60, 
@@ -10084,7 +10241,7 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -10200,15 +10357,15 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "undead", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }, 
@@ -10272,7 +10429,7 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -10457,11 +10614,11 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "machine", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }, 
@@ -10508,11 +10665,11 @@
         "killers": [
           {
             "name": "spirit", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "human", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -10572,11 +10729,11 @@
         "killers": [
           {
             "name": "stone", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "machine", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -10703,11 +10860,11 @@
         "killers": [
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "human", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }, 
@@ -10796,7 +10953,7 @@
         "killers": [
           {
             "name": "machine", 
-            "percent": 50
+            "physical": 50
           }
         ]
       }
@@ -10986,25 +11143,26 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bird", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "aquatic", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "bug", 
-            "percent": 25
+            "physical": 25
           }, 
           {
             "name": "dragon", 
-            "percent": 25
+            "physical": 25
           }
-        ]
+        ], 
+        "doubleHand": 50
       }
     ]
   }, 
@@ -11160,9 +11318,10 @@
         "killers": [
           {
             "name": "human", 
-            "percent": 50
+            "physical": 50
           }
-        ]
+        ], 
+        "doubleHand": 50
       }, 
       {
         "atk%": 25, 
@@ -11213,7 +11372,10 @@
       {
         "hp%": 10, 
         "mp%": 35, 
-        "spr%": 20
+        "spr%": 20, 
+        "evade": {
+          "physical": 30
+        }
       }
     ]
   }, 
@@ -11296,17 +11458,20 @@
         "killers": [
           {
             "name": "beast", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "bird", 
-            "percent": 50
+            "physical": 50
           }, 
           {
             "name": "demon", 
-            "percent": 50
+            "physical": 50
           }
-        ]
+        ], 
+        "evade": {
+          "physical": 30
+        }
       }
     ]
   }, 

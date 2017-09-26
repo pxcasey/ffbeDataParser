@@ -149,6 +149,10 @@ def getPassives(unitId, skills):
     specials = []
     killerDict = {}
     enhanceDict = {}
+    evade = OrderedDict()
+    #evade = []
+    doubleHand = 0
+    singleWield = OrderedDict()
 
     if unitId in enhanceData:
         for enhancementId in enhanceData[unitId]:
@@ -186,9 +190,7 @@ def getPassives(unitId, skills):
             if ((effect[1] == 3 and effect[2] == 11) and (effect[0] == 0 or effect[0] == 1) or
                 (effect[0] == 1 and effect[1] == 1 and effect[2] == 11)):
                 killerEffect = effect[3]
-                #remove this if block when implementing magic damage killer
-                if not killerEffect[1]:
-                    continue
+                
                 killerType = killerEffect[0]
                 if killerType in killerDict:
                     killerData = killerDict[killerType]
@@ -196,8 +198,7 @@ def getPassives(unitId, skills):
                     killerData = KillerBonus()
 
                 killerData.Phys += killerEffect[1]
-                #killerData.Mag += killerEffect[2]
-                #maybe have dict with 'name', 'phys', 'magic' as keys instead of 'name' and 'percent'
+                killerData.Mag += killerEffect[2]
                 killerDict[killerType] = killerData
 
             #masteries
@@ -265,6 +266,35 @@ def getPassives(unitId, skills):
                 elementBonus['equipedConditions'] = elementString[elementType]
                 masteries.append(elementBonus)
 
+            #evade
+            if effect[1] == 3 and effect[2] == 22:
+                evade['physical'] = effect[3][0]
+                #evade.append({'physical':effect[3][0]})
+            if effect[1] == 3 and effect[2] == 54 and effect[3][0] == -1:
+                evade['magical'] = effect[3][1]
+                #evade.append({'magical':effect[3][1]})
+
+            #doublehand
+            if effect[0] == 1 and effect[1] == 3 and effect[2] == 13:
+                doubleHand = effect[3][0]
+
+            #singlewield
+            if effect[2] == 10003:
+                swEffect = effect[3]
+                if swEffect[0]:
+                    singleWield['hp'] = swEffect[0]
+                if swEffect[1]:
+                    singleWield['mp'] = swEffect[1]
+                if swEffect[2]:
+                    singleWield['atk'] = swEffect[2]
+                if swEffect[3]:
+                    singleWield['mag'] = swEffect[3]
+                if swEffect[4]:
+                    singleWield['def'] = swEffect[4]
+                if swEffect[5]:
+                    singleWield['spr'] = swEffect[5]
+
+
             
     passiveStat = OrderedDict()
     if unitBonus.Hp:
@@ -279,21 +309,37 @@ def getPassives(unitId, skills):
         passiveStat['mag%'] = unitBonus.Mag
     if unitBonus.Spr:
         passiveStat['spr%'] = unitBonus.Spr
+
     if specials:
         passiveStat['special'] = specials
+
     if typesString:
         passiveStat['partialDualWield'] = typesString
+
     if killerDict:
         killers = []
         for key in killerDict:
             killerName = killerString[key]
             killerPhys = killerDict[key].Phys
+            killerMag = killerDict[key].Mag
             killerObj = OrderedDict()
             killerObj['name'] = killerName
-            killerObj['percent'] = killerPhys
+            if killerPhys:                
+                killerObj['physical'] = killerPhys
+            if killerMag:
+                killerObj['magical'] = killerMag
             killers.append(killerObj)
         passiveStat['killers'] = killers
 
+    if evade:
+        passiveStat['evade'] = evade
+
+    if doubleHand:
+        passiveStat['doubleHand'] = doubleHand
+
+    if singleWield:
+        passiveStat['singleWield'] = singleWield
+        
     returnSkills = []
     if passiveStat:
         returnSkills.append(passiveStat)
