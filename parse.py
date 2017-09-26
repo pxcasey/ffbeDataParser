@@ -282,17 +282,17 @@ def getPassives(unitId, skills):
             if effect[2] == 10003:
                 swEffect = effect[3]
                 if swEffect[0]:
-                    singleWield['hp'] = swEffect[0]
+                    singleWield['hp%'] = swEffect[0]
                 if swEffect[1]:
-                    singleWield['mp'] = swEffect[1]
+                    singleWield['mp%'] = swEffect[1]
                 if swEffect[2]:
-                    singleWield['atk'] = swEffect[2]
+                    singleWield['atk%'] = swEffect[2]
                 if swEffect[3]:
-                    singleWield['mag'] = swEffect[3]
+                    singleWield['mag%'] = swEffect[3]
                 if swEffect[4]:
-                    singleWield['def'] = swEffect[4]
+                    singleWield['def%'] = swEffect[4]
                 if swEffect[5]:
-                    singleWield['spr'] = swEffect[5]
+                    singleWield['spr%'] = swEffect[5]
 
 
             
