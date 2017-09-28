@@ -67,7 +67,7 @@ killerString = {
     12: 'undead',
     }
 
-filterGame = [20002, 20006, 20008]
+filterGame = [20002, 20006, 20007, 20008]
 
 with open('units.json') as unitsFile:
     unitsData = json.load(unitsFile)
