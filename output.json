@@ -3779,76 +3779,6 @@
       }
     ]
   }, 
-  "Hunter Rain": {
-    "max_rarity": 6, 
-    "stats": {
-      "maxStats": {
-        "hp": 3652, 
-        "mp": 150, 
-        "atk": 152, 
-        "def": 120, 
-        "mag": 110, 
-        "spr": 116
-      }, 
-      "pots": {
-        "hp": 450, 
-        "mp": 75, 
-        "atk": 30, 
-        "def": 30, 
-        "mag": 30, 
-        "spr": 30
-      }
-    }, 
-    "sex": "Male", 
-    "equip": [
-      "sword", 
-      "greatSword", 
-      "helm", 
-      "lightArmor", 
-      "heavyArmor"
-    ], 
-    "skills": [
-      {
-        "hp%": 30, 
-        "def%": 30, 
-        "killers": [
-          {
-            "name": "beast", 
-            "physical": 25
-          }, 
-          {
-            "name": "bird", 
-            "physical": 25
-          }, 
-          {
-            "name": "aquatic", 
-            "physical": 25
-          }, 
-          {
-            "name": "bug", 
-            "physical": 25
-          }, 
-          {
-            "name": "dragon", 
-            "physical": 25
-          }
-        ], 
-        "doubleHand": 75
-      }, 
-      {
-        "def%": 60, 
-        "equipedConditions": [
-          "heavyArmor"
-        ]
-      }, 
-      {
-        "atk%": 50, 
-        "equipedConditions": [
-          "greatSword"
-        ]
-      }
-    ]
-  }, 
   "Snow": {
     "max_rarity": 6, 
     "stats": {
@@ -4654,65 +4584,6 @@
       }
     ]
   }, 
-  "Hunter Jake": {
-    "max_rarity": 5, 
-    "stats": {
-      "maxStats": {
-        "hp": 2758, 
-        "mp": 106, 
-        "atk": 99, 
-        "def": 117, 
-        "mag": 79, 
-        "spr": 87
-      }, 
-      "pots": {
-        "hp": 240, 
-        "mp": 40, 
-        "atk": 16, 
-        "def": 24, 
-        "mag": 16, 
-        "spr": 16
-      }
-    }, 
-    "sex": "Male", 
-    "equip": [
-      "spear", 
-      "lightShield", 
-      "heavyShield", 
-      "helm", 
-      "lightArmor", 
-      "heavyArmor"
-    ], 
-    "skills": [
-      {
-        "hp%": 10, 
-        "def%": 10, 
-        "spr%": 10, 
-        "killers": [
-          {
-            "name": "beast", 
-            "physical": 25
-          }, 
-          {
-            "name": "bird", 
-            "physical": 25
-          }, 
-          {
-            "name": "aquatic", 
-            "physical": 25
-          }, 
-          {
-            "name": "bug", 
-            "physical": 25
-          }, 
-          {
-            "name": "dragon", 
-            "physical": 25
-          }
-        ]
-      }
-    ]
-  }, 
   "Bartz": {
     "max_rarity": 6, 
     "stats": {
@@ -4846,73 +4717,6 @@
       }
     ]
   }, 
-  "Hunter Fina": {
-    "max_rarity": 6, 
-    "stats": {
-      "maxStats": {
-        "hp": 3234, 
-        "mp": 183, 
-        "atk": 134, 
-        "def": 129, 
-        "mag": 119, 
-        "spr": 129
-      }, 
-      "pots": {
-        "hp": 390, 
-        "mp": 85, 
-        "atk": 26, 
-        "def": 26, 
-        "mag": 26, 
-        "spr": 26
-      }
-    }, 
-    "sex": "Female", 
-    "equip": [
-      "bow", 
-      "throwing", 
-      "hat", 
-      "helm", 
-      "clothes", 
-      "lightArmor"
-    ], 
-    "skills": [
-      {
-        "mp%": 30, 
-        "def%": 20, 
-        "killers": [
-          {
-            "name": "beast", 
-            "physical": 25
-          }, 
-          {
-            "name": "bird", 
-            "physical": 25
-          }, 
-          {
-            "name": "aquatic", 
-            "physical": 25
-          }, 
-          {
-            "name": "bug", 
-            "physical": 25
-          }, 
-          {
-            "name": "dragon", 
-            "physical": 25
-          }
-        ], 
-        "evade": {
-          "physical": 30
-        }
-      }, 
-      {
-        "spr%": 60, 
-        "equipedConditions": [
-          "bow"
-        ]
-      }
-    ]
-  }, 
   "Gaffgarion": {
     "max_rarity": 6, 
     "stats": {
@@ -5025,66 +4829,6 @@
     "skills": [
       {
         "atk%": 30
-      }
-    ]
-  }, 
-  "Hunter Nichol": {
-    "max_rarity": 6, 
-    "stats": {
-      "maxStats": {
-        "hp": 3592, 
-        "mp": 160, 
-        "atk": 157, 
-        "def": 121, 
-        "mag": 121, 
-        "spr": 117
-      }, 
-      "pots": {
-        "hp": 390, 
-        "mp": 65, 
-        "atk": 34, 
-        "def": 26, 
-        "mag": 26, 
-        "spr": 26
-      }
-    }, 
-    "sex": "Male", 
-    "equip": [
-      "dagger", 
-      "sword", 
-      "helm", 
-      "lightArmor", 
-      "heavyArmor"
-    ], 
-    "skills": [
-      {
-        "mp%": 20, 
-        "atk%": 30, 
-        "special": [
-          "dualWield"
-        ], 
-        "killers": [
-          {
-            "name": "beast", 
-            "physical": 25
-          }, 
-          {
-            "name": "bird", 
-            "physical": 25
-          }, 
-          {
-            "name": "aquatic", 
-            "physical": 25
-          }, 
-          {
-            "name": "bug", 
-            "physical": 25
-          }, 
-          {
-            "name": "dragon", 
-            "physical": 25
-          }
-        ]
       }
     ]
   }, 
@@ -7525,67 +7269,6 @@
       }
     ]
   }, 
-  "Hunter Lid": {
-    "max_rarity": 5, 
-    "stats": {
-      "maxStats": {
-        "hp": 2643, 
-        "mp": 114, 
-        "atk": 117, 
-        "def": 99, 
-        "mag": 82, 
-        "spr": 82
-      }, 
-      "pots": {
-        "hp": 300, 
-        "mp": 50, 
-        "atk": 20, 
-        "def": 20, 
-        "mag": 20, 
-        "spr": 20
-      }
-    }, 
-    "sex": "Female", 
-    "equip": [
-      "hammer", 
-      "mace", 
-      "hat", 
-      "helm", 
-      "clothes", 
-      "lightArmor", 
-      "heavyArmor"
-    ], 
-    "skills": [
-      {
-        "hp%": 10, 
-        "atk%": 10, 
-        "def%": 10, 
-        "killers": [
-          {
-            "name": "beast", 
-            "physical": 25
-          }, 
-          {
-            "name": "bird", 
-            "physical": 25
-          }, 
-          {
-            "name": "aquatic", 
-            "physical": 25
-          }, 
-          {
-            "name": "bug", 
-            "physical": 25
-          }, 
-          {
-            "name": "dragon", 
-            "physical": 25
-          }
-        ], 
-        "doubleHand": 50
-      }
-    ]
-  }, 
   "Refia": {
     "max_rarity": 6, 
     "stats": {
@@ -9677,69 +9360,6 @@
       }
     ]
   }, 
-  "Hunter Sakura": {
-    "max_rarity": 6, 
-    "stats": {
-      "maxStats": {
-        "hp": 3539, 
-        "mp": 168, 
-        "atk": 131, 
-        "def": 136, 
-        "mag": 121, 
-        "spr": 124
-      }, 
-      "pots": {
-        "hp": 450, 
-        "mp": 75, 
-        "atk": 30, 
-        "def": 30, 
-        "mag": 30, 
-        "spr": 30
-      }
-    }, 
-    "sex": "Female", 
-    "equip": [
-      "axe", 
-      "helm", 
-      "lightArmor", 
-      "heavyArmor"
-    ], 
-    "skills": [
-      {
-        "hp%": 30, 
-        "def%": 20, 
-        "killers": [
-          {
-            "name": "beast", 
-            "physical": 25
-          }, 
-          {
-            "name": "bird", 
-            "physical": 25
-          }, 
-          {
-            "name": "aquatic", 
-            "physical": 25
-          }, 
-          {
-            "name": "bug", 
-            "physical": 25
-          }, 
-          {
-            "name": "dragon", 
-            "physical": 25
-          }
-        ], 
-        "doubleHand": 50
-      }, 
-      {
-        "def%": 60, 
-        "equipedConditions": [
-          "heavyArmor"
-        ]
-      }
-    ]
-  }, 
   "Luna": {
     "max_rarity": 4, 
     "stats": {
@@ -10597,63 +10217,6 @@
         "equipedConditions": [
           "katana"
         ]
-      }
-    ]
-  }, 
-  "Hunter Lasswell": {
-    "max_rarity": 6, 
-    "stats": {
-      "maxStats": {
-        "hp": 3629, 
-        "mp": 156, 
-        "atk": 146, 
-        "def": 120, 
-        "mag": 112, 
-        "spr": 114
-      }, 
-      "pots": {
-        "hp": 390, 
-        "mp": 65, 
-        "atk": 34, 
-        "def": 26, 
-        "mag": 26, 
-        "spr": 26
-      }
-    }, 
-    "sex": "Male", 
-    "equip": [
-      "katana", 
-      "helm", 
-      "lightArmor", 
-      "heavyArmor"
-    ], 
-    "skills": [
-      {
-        "hp%": 30, 
-        "spr%": 30, 
-        "killers": [
-          {
-            "name": "beast", 
-            "physical": 25
-          }, 
-          {
-            "name": "bird", 
-            "physical": 25
-          }, 
-          {
-            "name": "aquatic", 
-            "physical": 25
-          }, 
-          {
-            "name": "bug", 
-            "physical": 25
-          }, 
-          {
-            "name": "dragon", 
-            "physical": 25
-          }
-        ], 
-        "doubleHand": 50
       }
     ]
   }, 
