@@ -82,6 +82,8 @@ def parseData():
 
     for unitId in unitsData:
         unit = unitsData[unitId]
+        if unit['game_id'] == 20002 or unit['game_id'] == 20006:
+            continue
         if 'skills' in unit:            
             unitJson = OrderedDict()
             unitName = unit['name'].encode('utf-8')
@@ -260,7 +262,7 @@ def getPassives(unitId, skills):
                 if elementEffect[4]:
                     elementBonus['mag%'] = elementEffect[4]
                 if elementEffect[5]:
-                    elementBonus['def%'] = elementEffect[5]
+                    elementBonus['def%']= elementEffect[5]
                 if elementEffect[6]:
                     elementBonus['spr%'] = elementEffect[6]
                 elementBonus['equipedConditions'] = elementString[elementType]
