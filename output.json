@@ -157,63 +157,6 @@
     ], 
     "skills": []
   }, 
-  "Katarina": {
-    "max_rarity": 6, 
-    "stats": {
-      "maxStats": {
-        "hp": 3622, 
-        "mp": 162, 
-        "atk": 156, 
-        "def": 120, 
-        "mag": 125, 
-        "spr": 125
-      }, 
-      "pots": {
-        "hp": 450, 
-        "mp": 75, 
-        "atk": 30, 
-        "def": 30, 
-        "mag": 30, 
-        "spr": 30
-      }
-    }, 
-    "sex": "Female", 
-    "equip": [
-      "dagger", 
-      "sword", 
-      "greatSword", 
-      "katana", 
-      "staff", 
-      "bow", 
-      "axe", 
-      "hammer", 
-      "spear", 
-      "mace", 
-      "lightShield", 
-      "heavyShield", 
-      "hat", 
-      "helm", 
-      "clothes", 
-      "lightArmor", 
-      "heavyArmor", 
-      "robe"
-    ], 
-    "skills": [
-      {
-        "hp%": 10, 
-        "mp%": 10, 
-        "atk%": 20, 
-        "def%": 10, 
-        "spr%": 20
-      }, 
-      {
-        "atk%": 50, 
-        "equipedConditions": [
-          "greatSword"
-        ]
-      }
-    ]
-  }, 
   "Sakura": {
     "max_rarity": 5, 
     "stats": {
@@ -2214,61 +2157,6 @@
       {
         "hp%": 10, 
         "atk%": 20
-      }
-    ]
-  }, 
-  "Julian": {
-    "max_rarity": 6, 
-    "stats": {
-      "maxStats": {
-        "hp": 3661, 
-        "mp": 155, 
-        "atk": 157, 
-        "def": 120, 
-        "mag": 119, 
-        "spr": 130
-      }, 
-      "pots": {
-        "hp": 390, 
-        "mp": 65, 
-        "atk": 34, 
-        "def": 26, 
-        "mag": 26, 
-        "spr": 26
-      }
-    }, 
-    "sex": "Male", 
-    "equip": [
-      "dagger", 
-      "sword", 
-      "greatSword", 
-      "katana", 
-      "staff", 
-      "bow", 
-      "axe", 
-      "hammer", 
-      "spear", 
-      "mace", 
-      "lightShield", 
-      "heavyShield", 
-      "hat", 
-      "helm", 
-      "clothes", 
-      "lightArmor", 
-      "heavyArmor", 
-      "robe"
-    ], 
-    "skills": [
-      {
-        "hp%": 30, 
-        "atk%": 30, 
-        "def%": 10
-      }, 
-      {
-        "atk%": 50, 
-        "equipedConditions": [
-          "sword"
-        ]
       }
     ]
   }, 
@@ -7127,55 +7015,6 @@
       }
     ]
   }, 
-  "Robyn": {
-    "max_rarity": 5, 
-    "stats": {
-      "maxStats": {
-        "hp": 2672, 
-        "mp": 114, 
-        "atk": 108, 
-        "def": 99, 
-        "mag": 86, 
-        "spr": 80
-      }, 
-      "pots": {
-        "hp": 300, 
-        "mp": 50, 
-        "atk": 20, 
-        "def": 20, 
-        "mag": 20, 
-        "spr": 20
-      }
-    }, 
-    "sex": "Male", 
-    "equip": [
-      "dagger", 
-      "sword", 
-      "greatSword", 
-      "katana", 
-      "staff", 
-      "bow", 
-      "axe", 
-      "hammer", 
-      "spear", 
-      "mace", 
-      "lightShield", 
-      "heavyShield", 
-      "hat", 
-      "helm", 
-      "clothes", 
-      "lightArmor", 
-      "heavyArmor", 
-      "robe"
-    ], 
-    "skills": [
-      {
-        "hp%": 10, 
-        "atk%": 20, 
-        "spr%": 20
-      }
-    ]
-  }, 
   "2B": {
     "max_rarity": 6, 
     "stats": {
@@ -8407,65 +8246,6 @@
         "def%": 10, 
         "mag%": 10, 
         "spr%": 10
-      }
-    ]
-  }, 
-  "Harid": {
-    "max_rarity": 6, 
-    "stats": {
-      "maxStats": {
-        "hp": 3630, 
-        "mp": 160, 
-        "atk": 151, 
-        "def": 121, 
-        "mag": 120, 
-        "spr": 124
-      }, 
-      "pots": {
-        "hp": 390, 
-        "mp": 65, 
-        "atk": 34, 
-        "def": 26, 
-        "mag": 26, 
-        "spr": 26
-      }
-    }, 
-    "sex": "Male", 
-    "equip": [
-      "dagger", 
-      "sword", 
-      "greatSword", 
-      "katana", 
-      "staff", 
-      "bow", 
-      "axe", 
-      "hammer", 
-      "spear", 
-      "mace", 
-      "lightShield", 
-      "heavyShield", 
-      "hat", 
-      "helm", 
-      "clothes", 
-      "lightArmor", 
-      "heavyArmor", 
-      "robe"
-    ], 
-    "skills": [
-      {
-        "mp%": 10, 
-        "atk%": 20, 
-        "def%": 20, 
-        "spr%": 10, 
-        "evade": {
-          "physical": 20
-        }
-      }, 
-      {
-        "atk%": 50, 
-        "equipedConditions": [
-          "sword"
-        ]
       }
     ]
   }, 

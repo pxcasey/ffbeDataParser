@@ -67,6 +67,7 @@ killerString = {
     12: 'undead',
     }
 
+filterGame = [20002, 20006, 20008]
 
 with open('units.json') as unitsFile:
     unitsData = json.load(unitsFile)
@@ -82,7 +83,7 @@ def parseData():
 
     for unitId in unitsData:
         unit = unitsData[unitId]
-        if unit['game_id'] == 20002 or unit['game_id'] == 20006:
+        if unit['game_id'] in filterGame:
             continue
         if 'skills' in unit:            
             unitJson = OrderedDict()
