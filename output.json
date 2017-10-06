@@ -3954,41 +3954,6 @@
       }
     ]
   }, 
-  "Samatha": {
-    "max_rarity": 4, 
-    "stats": {
-      "maxStats": {
-        "hp": 1798, 
-        "mp": 89, 
-        "atk": 75, 
-        "def": 61, 
-        "mag": 86, 
-        "spr": 78
-      }, 
-      "pots": {
-        "hp": 390, 
-        "mp": 65, 
-        "atk": 26, 
-        "def": 26, 
-        "mag": 34, 
-        "spr": 26
-      }
-    }, 
-    "sex": "Female", 
-    "equip": [
-      "spear", 
-      "hat", 
-      "clothes", 
-      "lightArmor", 
-      "robe"
-    ], 
-    "skills": [
-      {
-        "atk%": 10, 
-        "mag%": 10
-      }
-    ]
-  }, 
   "Veritas of the Light": {
     "max_rarity": 6, 
     "stats": {
@@ -4862,63 +4827,6 @@
       }
     ]
   }, 
-  "Hawk": {
-    "max_rarity": 6, 
-    "stats": {
-      "maxStats": {
-        "hp": 3618, 
-        "mp": 150, 
-        "atk": 147, 
-        "def": 122, 
-        "mag": 143, 
-        "spr": 129
-      }, 
-      "pots": {
-        "hp": 390, 
-        "mp": 65, 
-        "atk": 34, 
-        "def": 26, 
-        "mag": 26, 
-        "spr": 26
-      }
-    }, 
-    "sex": "Male", 
-    "equip": [
-      "dagger", 
-      "sword", 
-      "katana", 
-      "staff", 
-      "rod", 
-      "bow", 
-      "hammer", 
-      "spear", 
-      "whip", 
-      "throwing", 
-      "gun", 
-      "mace", 
-      "hat", 
-      "clothes", 
-      "robe"
-    ], 
-    "skills": [
-      {
-        "hp%": 20, 
-        "mag%": 30, 
-        "special": [
-          "dualWield"
-        ], 
-        "evade": {
-          "physical": 20
-        }
-      }, 
-      {
-        "atk%": 50, 
-        "equipedConditions": [
-          "dagger"
-        ]
-      }
-    ]
-  }, 
   "Golbez": {
     "max_rarity": 5, 
     "stats": {
@@ -5495,58 +5403,6 @@
         "mag%": 20, 
         "equipedConditions": [
           "sword"
-        ]
-      }
-    ]
-  }, 
-  "Lise": {
-    "max_rarity": 6, 
-    "stats": {
-      "maxStats": {
-        "hp": 3592, 
-        "mp": 168, 
-        "atk": 142, 
-        "def": 133, 
-        "mag": 140, 
-        "spr": 140
-      }, 
-      "pots": {
-        "hp": 450, 
-        "mp": 75, 
-        "atk": 30, 
-        "def": 30, 
-        "mag": 30, 
-        "spr": 30
-      }
-    }, 
-    "sex": "Female", 
-    "equip": [
-      "sword", 
-      "staff", 
-      "bow", 
-      "spear", 
-      "whip", 
-      "lightShield", 
-      "hat", 
-      "helm", 
-      "clothes", 
-      "lightArmor", 
-      "robe"
-    ], 
-    "skills": [
-      {
-        "hp%": 20, 
-        "mp%": 20, 
-        "atk%": 20, 
-        "def%": 20, 
-        "mag%": 20, 
-        "spr%": 20
-      }, 
-      {
-        "mag%": 30, 
-        "spr%": 30, 
-        "equipedConditions": [
-          "spear"
         ]
       }
     ]
@@ -6175,20 +6031,20 @@
     "max_rarity": 6, 
     "stats": {
       "maxStats": {
-        "hp": 3185, 
-        "mp": 182, 
-        "atk": 122, 
-        "def": 115, 
-        "mag": 125, 
-        "spr": 148
+        "hp": 3668, 
+        "mp": 152, 
+        "atk": 123, 
+        "def": 120, 
+        "mag": 110, 
+        "spr": 124
       }, 
       "pots": {
         "hp": 390, 
         "mp": 65, 
         "atk": 26, 
-        "def": 26, 
+        "def": 34, 
         "mag": 26, 
-        "spr": 34
+        "spr": 26
       }
     }, 
     "sex": "Female", 
@@ -6197,19 +6053,31 @@
       "sword", 
       "staff", 
       "rod", 
-      "bow", 
-      "harp", 
-      "whip", 
       "mace", 
       "lightShield", 
+      "heavyShield", 
       "hat", 
+      "helm", 
       "clothes", 
-      "robe"
+      "lightArmor", 
+      "heavyArmor"
     ], 
     "skills": [
       {
-        "mag%": 20, 
-        "spr%": 20
+        "hp%": 25, 
+        "atk%": 10, 
+        "def%": 30, 
+        "spr%": 10, 
+        "killers": [
+          {
+            "name": "demon", 
+            "physical": 50
+          }, 
+          {
+            "name": "undead", 
+            "physical": 50
+          }
+        ]
       }
     ]
   }, 
@@ -7151,69 +7019,6 @@
       }
     ]
   }, 
-  "Hero": {
-    "max_rarity": 6, 
-    "stats": {
-      "maxStats": {
-        "hp": 3500, 
-        "mp": 150, 
-        "atk": 140, 
-        "def": 130, 
-        "mag": 120, 
-        "spr": 120
-      }, 
-      "pots": {
-        "hp": 450, 
-        "mp": 75, 
-        "atk": 30, 
-        "def": 30, 
-        "mag": 30, 
-        "spr": 30
-      }
-    }, 
-    "sex": "Male", 
-    "equip": [
-      "dagger", 
-      "sword", 
-      "greatSword", 
-      "staff", 
-      "rod", 
-      "axe", 
-      "hammer", 
-      "spear", 
-      "whip", 
-      "mace", 
-      "fist", 
-      "lightShield", 
-      "heavyShield", 
-      "hat", 
-      "helm", 
-      "clothes", 
-      "lightArmor", 
-      "heavyArmor", 
-      "robe"
-    ], 
-    "skills": [
-      {
-        "def%": 50, 
-        "equipedConditions": [
-          "lightShield"
-        ]
-      }, 
-      {
-        "def%": 50, 
-        "equipedConditions": [
-          "heavyShield"
-        ]
-      }, 
-      {
-        "atk%": 50, 
-        "equipedConditions": [
-          "sword"
-        ]
-      }
-    ]
-  }, 
   "Lulu": {
     "max_rarity": 6, 
     "stats": {
@@ -7557,59 +7362,6 @@
             "name": "stone", 
             "physical": 75
           }
-        ]
-      }
-    ]
-  }, 
-  "Kevin": {
-    "max_rarity": 6, 
-    "stats": {
-      "maxStats": {
-        "hp": 3655, 
-        "mp": 139, 
-        "atk": 156, 
-        "def": 128, 
-        "mag": 122, 
-        "spr": 125
-      }, 
-      "pots": {
-        "hp": 390, 
-        "mp": 65, 
-        "atk": 34, 
-        "def": 26, 
-        "mag": 26, 
-        "spr": 26
-      }
-    }, 
-    "sex": "Male", 
-    "equip": [
-      "dagger", 
-      "staff", 
-      "rod", 
-      "spear", 
-      "mace", 
-      "fist", 
-      "hat", 
-      "clothes", 
-      "lightArmor", 
-      "robe"
-    ], 
-    "skills": [
-      {
-        "hp%": 30, 
-        "atk%": 30, 
-        "mag%": 20
-      }, 
-      {
-        "atk%": 50, 
-        "equipedConditions": [
-          "fist"
-        ]
-      }, 
-      {
-        "atk%": 200, 
-        "equipedConditions": [
-          "unarmed"
         ]
       }
     ]
