@@ -68,6 +68,7 @@ killerString = {
     }
 
 filterGame = [20001, 20002, 20006, 20007, 20008, 20011, 20012]
+enhanceDict = {}
 
 with open('units.json') as unitsFile:
     unitsData = json.load(unitsFile)
@@ -80,6 +81,7 @@ with open('enhancements.json') as enhanceFile:
 
 def parseData():
     jsonOutput = OrderedDict()
+    buildEnhanceDict()
 
     for unitId in unitsData:
         unit = unitsData[unitId]
@@ -102,6 +104,16 @@ def parseData():
     except UnicodeError as e:
         print 'UnicodeError: ', e
 
+
+def buildEnhanceDict():
+    for enhancement in enhanceData:
+        oldId = enhanceData[enhancement]['skill_id_old']
+        newId = enhanceData[enhancement]['skill_id_new']
+        for unit in enhanceData[enhancement]['units']:
+            if str(unit) in enhanceDict:
+                enhanceDict[str(unit)][oldId] = newId
+            else:
+                enhanceDict[str(unit)] = {oldId:newId}
 
 def getEquips(equips):
     equipString = []
@@ -150,23 +162,24 @@ def getPassives(unitId, skills):
     typesString = []
     masteries = []
     specials = []
-    killerDict = {}
-    enhanceDict = {}
+    killerDict = {}    
     evade = OrderedDict()
     #evade = []
     doubleHand = 0
     singleWield = OrderedDict()
 
-    if unitId in enhanceData:
+    '''if unitId in enhanceDict:
         for enhancementId in enhanceData[unitId]:
             oldId = enhanceData[unitId][enhancementId]['skill_id_old']
             newId = enhanceData[unitId][enhancementId]['skill_id_new']
-            enhanceDict[oldId] = newId        
+            enhanceDict[oldId] = newId        '''
 
     for item in skills:
         skillIdNum = item['id']
-        while skillIdNum in enhanceDict:
-            skillIdNum = enhanceDict[skillIdNum]
+        if unitId in enhanceDict:
+            unitEnhanceDict = enhanceDict[unitId]
+            while skillIdNum in unitEnhanceDict:
+                skillIdNum = unitEnhanceDict[skillIdNum]
 
         skillId = str(skillIdNum)
         skillData = skillsData[skillId]
